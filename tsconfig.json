@@ -1,0 +1,23 @@
+{
+	"compilerOptions": {
+		"strict": true,
+		"noEmit": true,
+		"target": "esnext",
+		"module": "nodenext",
+		"moduleResolution": "nodenext",
+		"resolveJsonModule": true,
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"baseUrl": ".",
+		"forceConsistentCasingInFileNames": true,
+		"exactOptionalPropertyTypes": true,
+		"noFallthroughCasesInSwitch": true,
+		"noImplicitOverride": true,
+		"noPropertyAccessFromIndexSignature": true,
+		"noUncheckedIndexedAccess": true,
+		"rewriteRelativeImportExtensions": true,
+		"verbatimModuleSyntax": true,
+		"erasableSyntaxOnly": true
+	},
+	"include": ["**/*.ts", "**/*.tsx"]
+}

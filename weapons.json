@@ -1,0 +1,4207 @@
+{
+	"classes": {
+		"Shooter": {
+			"icon_id": 0,
+			"internal": "Shooter",
+			"order": 0,
+			"lang": {
+				"en": "Shooters"
+			},
+			"image": {
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_type/IconTypeWpn_00.png"
+			}
+		},
+		"Roller": {
+			"icon_id": 5,
+			"internal": "Roller",
+			"order": 1,
+			"lang": {
+				"en": "Rollers"
+			},
+			"image": {
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_type/IconTypeWpn_05.png"
+			}
+		},
+		"Charger": {
+			"icon_id": 4,
+			"internal": "Charger",
+			"order": 2,
+			"lang": {
+				"en": "Chargers"
+			},
+			"image": {
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_type/IconTypeWpn_04.png"
+			}
+		},
+		"Slosher": {
+			"icon_id": 7,
+			"internal": "Slosher",
+			"order": 3,
+			"lang": {
+				"en": "Sloshers"
+			},
+			"image": {
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_type/IconTypeWpn_07.png"
+			}
+		},
+		"Splatling": {
+			"icon_id": 3,
+			"internal": "Spinner",
+			"order": 4,
+			"lang": {
+				"en": "Splatlings"
+			},
+			"image": {
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_type/IconTypeWpn_03.png"
+			}
+		},
+		"Dualies": {
+			"icon_id": 2,
+			"internal": "Maneuver",
+			"order": 5,
+			"lang": {
+				"en": "Dualies"
+			},
+			"image": {
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_type/IconTypeWpn_02.png"
+			}
+		},
+		"Brella": {
+			"icon_id": 8,
+			"internal": "Shelter",
+			"order": 6,
+			"lang": {
+				"en": "Brellas"
+			},
+			"image": {
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_type/IconTypeWpn_08.png"
+			}
+		},
+		"Blaster": {
+			"icon_id": 1,
+			"internal": "Blaster",
+			"order": 7,
+			"lang": {
+				"en": "Blasters"
+			},
+			"image": {
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_type/IconTypeWpn_01.png"
+			}
+		},
+		"Brush": {
+			"icon_id": 6,
+			"internal": "Brush",
+			"order": 8,
+			"lang": {
+				"en": "Brushes"
+			},
+			"image": {
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_type/IconTypeWpn_06.png"
+			}
+		},
+		"Stringer": {
+			"icon_id": 9,
+			"internal": "Stringer",
+			"order": 9,
+			"lang": {
+				"en": "Stringers"
+			},
+			"image": {
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_type/IconTypeWpn_09.png"
+			}
+		},
+		"Splatana": {
+			"icon_id": 10,
+			"internal": "Saber",
+			"order": 10,
+			"lang": {
+				"en": "Splatanas"
+			},
+			"image": {
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_type/IconTypeWpn_10.png"
+			}
+		}
+	},
+	"weapons": {
+		"SplooshOMatic": {
+			"id": 0,
+			"internal": "Shooter_Short_00",
+			"sub": "CurlingBomb",
+			"special": "UltraStamp",
+			"pfs": 190,
+			"class": "Shooter",
+			"unlock": {
+				"type": "level",
+				"level": 9
+			},
+			"added": "1.0.0",
+			"lang": {
+				"en": "Sploosh-o-matic"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/ShooterShort00.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Shooter_Short_00.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Shooter_Short_00.png"
+			}
+		},
+		"NeoSplooshOMatic": {
+			"id": 1,
+			"internal": "Shooter_Short_01",
+			"sub": "SquidBeakon",
+			"special": "KillerWail51",
+			"pfs": 170,
+			"class": "Shooter",
+			"unlock": {
+				"type": "level",
+				"level": 13
+			},
+			"added": "3.0.0",
+			"lang": {
+				"en": "Neo Sploosh-o-matic"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/ShooterShort01.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Shooter_Short_01.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Shooter_Short_01.png"
+			}
+		},
+		"SplattershotJr": {
+			"id": 10,
+			"internal": "Shooter_First_00",
+			"sub": "SplatBomb",
+			"special": "BigBubbler",
+			"pfs": 180,
+			"class": "Shooter",
+			"unlock": {
+				"type": "starter"
+			},
+			"added": "1.0.0",
+			"lang": {
+				"en": "Splattershot Jr."
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/ShooterFirst00.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Shooter_First_00.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Shooter_First_00.png"
+			}
+		},
+		"CustomSplattershotJr": {
+			"id": 11,
+			"internal": "Shooter_First_01",
+			"sub": "Torpedo",
+			"special": "WaveBreaker",
+			"pfs": 190,
+			"class": "Shooter",
+			"unlock": {
+				"type": "level",
+				"level": 6
+			},
+			"added": "2.0.0",
+			"lang": {
+				"en": "Custom Splattershot Jr."
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/ShooterFirst01.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Shooter_First_01.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Shooter_First_01.png"
+			}
+		},
+		"SplashOMatic": {
+			"id": 20,
+			"internal": "Shooter_Precision_00",
+			"sub": "BurstBomb",
+			"special": "CrabTank",
+			"pfs": 210,
+			"class": "Shooter",
+			"unlock": {
+				"type": "level",
+				"level": 16
+			},
+			"added": "1.0.0",
+			"lang": {
+				"en": "Splash-o-matic"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/ShooterPrecision00.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Shooter_Precision_00.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Shooter_Precision_00.png"
+			}
+		},
+		"NeoSplashOMatic": {
+			"id": 21,
+			"internal": "Shooter_Precision_01",
+			"sub": "SuctionBomb",
+			"special": "TripleInkstrike",
+			"pfs": 200,
+			"class": "Shooter",
+			"unlock": {
+				"type": "level",
+				"level": 21
+			},
+			"added": "3.0.0",
+			"lang": {
+				"en": "Neo Splash-o-matic"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/ShooterPrecision01.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Shooter_Precision_01.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Shooter_Precision_01.png"
+			}
+		},
+		"SplashOMaticGckO": {
+			"id": 22,
+			"internal": "Shooter_Precision_02",
+			"internalTableturf": null,
+			"sub": "ToxicMist",
+			"special": "InkStorm",
+			"pfs": 180,
+			"class": "Shooter",
+			"unlock": {
+				"type": "level",
+				"level": 22
+			},
+			"added": "10.0.0",
+			"lang": {
+				"en": "Splash-o-matic GCK-O"
+			},
+			"image": {
+				"tableturf": null,
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Shooter_Precision_02.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Shooter_Precision_02.png"
+			}
+		},
+		"AerosprayMG": {
+			"id": 30,
+			"internal": "Shooter_Blaze_00",
+			"sub": "FizzyBomb",
+			"special": "Reefslider",
+			"pfs": 180,
+			"class": "Shooter",
+			"unlock": {
+				"type": "level",
+				"level": 5
+			},
+			"added": "1.0.0",
+			"lang": {
+				"en": "Aerospray MG"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/ShooterBlaze00.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Shooter_Blaze_00.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Shooter_Blaze_00.png"
+			}
+		},
+		"AerosprayRG": {
+			"id": 31,
+			"internal": "Shooter_Blaze_01",
+			"sub": "Sprinkler",
+			"special": "BooyahBomb",
+			"pfs": 190,
+			"class": "Shooter",
+			"unlock": {
+				"type": "level",
+				"level": 18
+			},
+			"added": "2.0.0",
+			"lang": {
+				"en": "Aerospray RG"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/ShooterBlaze01.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Shooter_Blaze_01.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Shooter_Blaze_01.png"
+			}
+		},
+		"ColorzAerospray": {
+			"id": 32,
+			"internal": "Shooter_Blaze_02",
+			"internalTableturf": null,
+			"sub": "BurstBomb",
+			"special": "SplattercolorScreen",
+			"pfs": 180,
+			"class": "Shooter",
+			"unlock": {
+				"type": "level",
+				"level": 19
+			},
+			"added": "10.0.0",
+			"lang": {
+				"en": "Colorz Aerospray"
+			},
+			"image": {
+				"tableturf": null,
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Shooter_Blaze_02.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Shooter_Blaze_02.png"
+			}
+		},
+		"Splattershot": {
+			"id": 40,
+			"internal": "Shooter_Normal_00",
+			"sub": "SuctionBomb",
+			"special": "Trizooka",
+			"pfs": 200,
+			"class": "Shooter",
+			"unlock": {
+				"type": "level",
+				"level": 2
+			},
+			"added": "1.0.0",
+			"lang": {
+				"en": "Splattershot"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/ShooterNormal00.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Shooter_Normal_00.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Shooter_Normal_00.png"
+			}
+		},
+		"TentatekSplattershot": {
+			"id": 41,
+			"internal": "Shooter_Normal_01",
+			"sub": "SplatBomb",
+			"special": "TripleInkstrike",
+			"pfs": 190,
+			"class": "Shooter",
+			"unlock": {
+				"type": "level",
+				"level": 10
+			},
+			"added": "2.0.0",
+			"lang": {
+				"en": "Tentatek Splattershot"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/ShooterNormal01.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Shooter_Normal_01.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Shooter_Normal_01.png"
+			}
+		},
+		"GlamorzSplattershot": {
+			"id": 42,
+			"internal": "Shooter_Normal_02",
+			"internalTableturf": null,
+			"sub": "BurstBomb",
+			"special": "KrakenRoyale",
+			"pfs": 190,
+			"class": "Shooter",
+			"unlock": {
+				"type": "level",
+				"level": 12
+			},
+			"added": "10.0.0",
+			"lang": {
+				"en": "Glamorz Splattershot"
+			},
+			"image": {
+				"tableturf": null,
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Shooter_Normal_02.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Shooter_Normal_02.png"
+			}
+		},
+		"HeroShotReplica": {
+			"id": 45,
+			"internal": "Shooter_Normal_H",
+			"internalTableturf": "HeroShooter",
+			"sub": "SuctionBomb",
+			"special": "Trizooka",
+			"pfs": 200,
+			"class": "Shooter",
+			"unlock": {
+				"type": "complete-story-mode"
+			},
+			"added": "1.0.0",
+			"lang": {
+				"en": "Hero Shot Replica"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/HeroShooter.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Shooter_Normal_H.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Shooter_Normal_H.png"
+			}
+		},
+		"OctoShotReplica": {
+			"id": 46,
+			"internal": "Shooter_Normal_O",
+			"internalTableturf": null,
+			"sub": "SplatBomb",
+			"special": "TripleInkstrike",
+			"pfs": 190,
+			"class": "Shooter",
+			"unlock": {
+				"type": "side-order"
+			},
+			"added": "7.0.0",
+			"lang": {
+				"en": "Order Shot Replica"
+			},
+			"image": {
+				"tableturf": null,
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Shooter_Normal_O.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Shooter_Normal_O.png"
+			}
+		},
+		"OrderShotReplica": {
+			"id": 47,
+			"internal": "Shooter_Normal_Oct",
+			"internalTableturf": null,
+			"sub": "SuctionBomb",
+			"special": "Trizooka",
+			"pfs": 200,
+			"class": "Shooter",
+			"unlock": {
+				"type": "side-order"
+			},
+			"added": "7.0.0",
+			"lang": {
+				"en": "Octo Shot Replica"
+			},
+			"image": {
+				"tableturf": null,
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Shooter_Normal_Oct.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Shooter_Normal_Oct.png"
+			}
+		},
+		"PlasticBottleShotReplica": {
+			"id": 48,
+			"internal": "Shooter_Normal_S",
+			"internalTableturf": null,
+			"sub": "SplatBomb",
+			"special": "TripleInkstrike",
+			"pfs": 190,
+			"class": "Shooter",
+			"unlock": {
+				"type": "complete-raiders"
+			},
+			"added": "11.3.0",
+			"lang": {
+				"en": "Plastic-Bottle Shot Replica"
+			},
+			"image": {
+				"tableturf": null,
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Shooter_Normal_S.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Shooter_Normal_S.png"
+			}
+		},
+		"Gal52": {
+			"id": 50,
+			"internal": "Shooter_Gravity_00",
+			"sub": "SplashWall",
+			"special": "KillerWail51",
+			"pfs": 210,
+			"class": "Shooter",
+			"unlock": {
+				"type": "level",
+				"level": 11
+			},
+			"added": "1.0.0",
+			"lang": {
+				"en": ".52 Gal"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/ShooterGravity00.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Shooter_Gravity_00.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Shooter_Gravity_00.png"
+			}
+		},
+		"Gal52Deco": {
+			"id": 51,
+			"internal": "Shooter_Gravity_01",
+			"sub": "CurlingBomb",
+			"special": "SplattercolorScreen",
+			"pfs": 190,
+			"class": "Shooter",
+			"unlock": {
+				"type": "level",
+				"level": 14
+			},
+			"added": "7.0.0",
+			"lang": {
+				"en": ".52 Gal Deco"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/ShooterGravity01.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Shooter_Gravity_01.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Shooter_Gravity_01.png"
+			}
+		},
+		"NZap85": {
+			"id": 60,
+			"internal": "Shooter_QuickMiddle_00",
+			"sub": "SuctionBomb",
+			"special": "Tacticooler",
+			"pfs": 200,
+			"class": "Shooter",
+			"unlock": {
+				"type": "level",
+				"level": 6
+			},
+			"added": "1.0.0",
+			"lang": {
+				"en": "N-ZAP '85"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/ShooterQuickMiddle00.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Shooter_QuickMiddle_00.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Shooter_QuickMiddle_00.png"
+			}
+		},
+		"NZap89": {
+			"id": 61,
+			"internal": "Shooter_QuickMiddle_01",
+			"sub": "Autobomb",
+			"special": "SuperChump",
+			"pfs": 170,
+			"class": "Shooter",
+			"unlock": {
+				"type": "level",
+				"level": 11
+			},
+			"added": "3.0.0",
+			"lang": {
+				"en": "N-ZAP '89"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/ShooterQuickMiddle01.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Shooter_QuickMiddle_01.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Shooter_QuickMiddle_01.png"
+			}
+		},
+		"SplattershotPro": {
+			"id": 70,
+			"internal": "Shooter_Expert_00",
+			"sub": "AngleShooter",
+			"special": "CrabTank",
+			"pfs": 190,
+			"class": "Shooter",
+			"unlock": {
+				"type": "level",
+				"level": 9
+			},
+			"added": "1.0.0",
+			"lang": {
+				"en": "Splattershot Pro"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/ShooterExpert00.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Shooter_Expert_00.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Shooter_Expert_00.png"
+			}
+		},
+		"ForgeSplattershotPro": {
+			"id": 71,
+			"internal": "Shooter_Expert_01",
+			"sub": "SuctionBomb",
+			"special": "BooyahBomb",
+			"pfs": 200,
+			"class": "Shooter",
+			"unlock": {
+				"type": "level",
+				"level": 20
+			},
+			"added": "2.0.0",
+			"lang": {
+				"en": "Forge Splattershot Pro"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/ShooterExpert01.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Shooter_Expert_01.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Shooter_Expert_01.png"
+			}
+		},
+		"SplattershotProFrzN": {
+			"id": 72,
+			"internal": "Shooter_Expert_02",
+			"internalTableturf": null,
+			"sub": "SplatBomb",
+			"special": "TentaMissiles",
+			"pfs": 180,
+			"class": "Shooter",
+			"unlock": {
+				"type": "level",
+				"level": 23
+			},
+			"added": "10.0.0",
+			"lang": {
+				"en": "Splattershot Pro FRZ-N"
+			},
+			"image": {
+				"tableturf": null,
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Shooter_Expert_02.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Shooter_Expert_02.png"
+			}
+		},
+		"Gal96": {
+			"id": 80,
+			"internal": "Shooter_Heavy_00",
+			"sub": "Sprinkler",
+			"special": "InkVac",
+			"pfs": 190,
+			"class": "Shooter",
+			"unlock": {
+				"type": "level",
+				"level": 17
+			},
+			"added": "1.0.0",
+			"lang": {
+				"en": ".96 Gal"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/ShooterHeavy00.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Shooter_Heavy_00.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Shooter_Heavy_00.png"
+			}
+		},
+		"Gal96Deco": {
+			"id": 81,
+			"internal": "Shooter_Heavy_01",
+			"sub": "SplashWall",
+			"special": "KrakenRoyale",
+			"pfs": 210,
+			"class": "Shooter",
+			"unlock": {
+				"type": "level",
+				"level": 23
+			},
+			"added": "3.0.0",
+			"lang": {
+				"en": ".96 Gal Deco"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/ShooterHeavy01.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Shooter_Heavy_01.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Shooter_Heavy_01.png"
+			}
+		},
+		"ClawzGal96": {
+			"id": 82,
+			"internal": "Shooter_Heavy_02",
+			"internalTableturf": null,
+			"sub": "AngleShooter",
+			"special": "Tacticooler",
+			"pfs": 190,
+			"class": "Shooter",
+			"unlock": {
+				"type": "level",
+				"level": 24
+			},
+			"added": "10.0.0",
+			"lang": {
+				"en": "Clawz .96 Gal"
+			},
+			"image": {
+				"tableturf": null,
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Shooter_Heavy_02.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Shooter_Heavy_02.png"
+			}
+		},
+		"JetSquelcher": {
+			"id": 90,
+			"internal": "Shooter_Long_00",
+			"sub": "AngleShooter",
+			"special": "InkVac",
+			"pfs": 180,
+			"class": "Shooter",
+			"unlock": {
+				"type": "level",
+				"level": 15
+			},
+			"added": "1.0.0",
+			"lang": {
+				"en": "Jet Squelcher"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/ShooterLong00.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Shooter_Long_00.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Shooter_Long_00.png"
+			}
+		},
+		"CustomJetSquelcher": {
+			"id": 91,
+			"internal": "Shooter_Long_01",
+			"sub": "ToxicMist",
+			"special": "InkStorm",
+			"pfs": 180,
+			"class": "Shooter",
+			"unlock": {
+				"type": "level",
+				"level": 20
+			},
+			"added": "3.0.0",
+			"lang": {
+				"en": "Custom Jet Squelcher"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/ShooterLong01.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Shooter_Long_01.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Shooter_Long_01.png"
+			}
+		},
+		"JetSquelcherCobR": {
+			"id": 92,
+			"internal": "Shooter_Long_02",
+			"internalTableturf": null,
+			"sub": "BurstBomb",
+			"special": "TripleSplashdown",
+			"pfs": 190,
+			"class": "Shooter",
+			"unlock": {
+				"type": "level",
+				"level": 21
+			},
+			"added": "10.0.0",
+			"lang": {
+				"en": "Jet Squelcher COB-R"
+			},
+			"image": {
+				"tableturf": null,
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Shooter_Long_02.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Shooter_Long_02.png"
+			}
+		},
+		"SplattershotNova": {
+			"id": 100,
+			"internal": "Shooter_QuickLong_00",
+			"sub": "PointSensor",
+			"special": "KillerWail51",
+			"pfs": 190,
+			"class": "Shooter",
+			"unlock": {
+				"type": "level",
+				"level": 8
+			},
+			"added": "2.0.0",
+			"lang": {
+				"en": "Splattershot Nova"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/ShooterQuickLong00.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Shooter_QuickLong_00.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Shooter_QuickLong_00.png"
+			}
+		},
+		"AnnakiSplattershotNova": {
+			"id": 101,
+			"internal": "Shooter_QuickLong_01",
+			"sub": "InkMine",
+			"special": "Inkjet",
+			"pfs": 210,
+			"class": "Shooter",
+			"unlock": {
+				"type": "level",
+				"level": 12
+			},
+			"added": "4.0.0",
+			"lang": {
+				"en": "Annaki Splattershot Nova"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/ShooterQuickLong01.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Shooter_QuickLong_01.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Shooter_QuickLong_01.png"
+			}
+		},
+		"L3Nozzlenose": {
+			"id": 300,
+			"internal": "Shooter_TripleQuick_00",
+			"sub": "CurlingBomb",
+			"special": "CrabTank",
+			"pfs": 190,
+			"class": "Shooter",
+			"unlock": {
+				"type": "level",
+				"level": 13
+			},
+			"added": "1.0.0",
+			"lang": {
+				"en": "L-3 Nozzlenose"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/ShooterTripleQuick00.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Shooter_TripleQuick_00.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Shooter_TripleQuick_00.png"
+			}
+		},
+		"L3NozzlenoseD": {
+			"id": 301,
+			"internal": "Shooter_TripleQuick_01",
+			"sub": "BurstBomb",
+			"special": "UltraStamp",
+			"pfs": 200,
+			"class": "Shooter",
+			"unlock": {
+				"type": "level",
+				"level": 19
+			},
+			"added": "3.0.0",
+			"lang": {
+				"en": "L-3 Nozzlenose D"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/ShooterTripleQuick01.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Shooter_TripleQuick_01.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Shooter_TripleQuick_01.png"
+			}
+		},
+		"GlitterzL3Nozzlenose": {
+			"id": 302,
+			"internal": "Shooter_TripleQuick_02",
+			"internalTableturf": null,
+			"sub": "SplatBomb",
+			"special": "Inkjet",
+			"pfs": 200,
+			"class": "Shooter",
+			"unlock": {
+				"type": "level",
+				"level": 20
+			},
+			"added": "10.0.0",
+			"lang": {
+				"en": "Glitterz L-3 Nozzlenose"
+			},
+			"image": {
+				"tableturf": null,
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Shooter_TripleQuick_02.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Shooter_TripleQuick_02.png"
+			}
+		},
+		"H3Nozzlenose": {
+			"id": 310,
+			"internal": "Shooter_TripleMiddle_00",
+			"sub": "PointSensor",
+			"special": "Tacticooler",
+			"pfs": 190,
+			"class": "Shooter",
+			"unlock": {
+				"type": "level",
+				"level": 24
+			},
+			"added": "1.0.0",
+			"lang": {
+				"en": "H-3 Nozzlenose"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/ShooterTripleMiddle00.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Shooter_TripleMiddle_00.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Shooter_TripleMiddle_00.png"
+			}
+		},
+		"H3NozzlenoseD": {
+			"id": 311,
+			"internal": "Shooter_TripleMiddle_01",
+			"sub": "SplashWall",
+			"special": "BigBubbler",
+			"pfs": 200,
+			"class": "Shooter",
+			"unlock": {
+				"type": "level",
+				"level": 27
+			},
+			"added": "4.0.0",
+			"lang": {
+				"en": "H-3 Nozzlenose D"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/ShooterTripleMiddle01.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Shooter_TripleMiddle_01.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Shooter_TripleMiddle_01.png"
+			}
+		},
+		"H3NozzlenoseVipR": {
+			"id": 312,
+			"internal": "Shooter_TripleMiddle_02",
+			"internalTableturf": null,
+			"sub": "SuctionBomb",
+			"special": "TripleInkstrike",
+			"pfs": 200,
+			"class": "Shooter",
+			"unlock": {
+				"type": "level",
+				"level": 29
+			},
+			"added": "10.0.0",
+			"lang": {
+				"en": "H-3 Nozzlenose VIP-R"
+			},
+			"image": {
+				"tableturf": null,
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Shooter_TripleMiddle_02.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Shooter_TripleMiddle_02.png"
+			}
+		},
+		"Squeezer": {
+			"id": 400,
+			"internal": "Shooter_Flash_00",
+			"sub": "SplashWall",
+			"special": "Trizooka",
+			"pfs": 220,
+			"class": "Shooter",
+			"unlock": {
+				"type": "level",
+				"level": 19
+			},
+			"added": "1.0.0",
+			"lang": {
+				"en": "Squeezer"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/ShooterFlash00.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Shooter_Flash_00.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Shooter_Flash_00.png"
+			}
+		},
+		"FoilSqueezer": {
+			"id": 401,
+			"internal": "Shooter_Flash_01",
+			"sub": "Autobomb",
+			"special": "SplattercolorScreen",
+			"pfs": 190,
+			"class": "Shooter",
+			"unlock": {
+				"type": "level",
+				"level": 25
+			},
+			"added": "6.0.0",
+			"lang": {
+				"en": "Foil Squeezer"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/ShooterFlash01.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Shooter_Flash_01.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Shooter_Flash_01.png"
+			}
+		},
+		"LunaBlaster": {
+			"id": 200,
+			"internal": "Blaster_Short_00",
+			"sub": "SplatBomb",
+			"special": "Zipcaster",
+			"pfs": 170,
+			"class": "Blaster",
+			"unlock": {
+				"type": "level",
+				"level": 13
+			},
+			"added": "1.0.0",
+			"lang": {
+				"en": "Luna Blaster"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/BlasterShort00.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Blaster_Short_00.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Blaster_Short_00.png"
+			}
+		},
+		"LunaBlasterNeo": {
+			"id": 201,
+			"internal": "Blaster_Short_01",
+			"sub": "FizzyBomb",
+			"special": "UltraStamp",
+			"pfs": 200,
+			"class": "Blaster",
+			"unlock": {
+				"type": "level",
+				"level": 24
+			},
+			"added": "2.0.0",
+			"lang": {
+				"en": "Luna Blaster Neo"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/BlasterShort01.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Blaster_Short_01.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Blaster_Short_01.png"
+			}
+		},
+		"OrderBlasterReplica": {
+			"id": 205,
+			"internal": "Blaster_Short_O",
+			"internalTableturf": null,
+			"sub": "SplatBomb",
+			"special": "Zipcaster",
+			"pfs": 170,
+			"class": "Blaster",
+			"unlock": {
+				"type": "side-order"
+			},
+			"added": "7.0.0",
+			"lang": {
+				"en": "Order Blaster Replica"
+			},
+			"image": {
+				"tableturf": null,
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Blaster_Short_O.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Blaster_Short_O.png"
+			}
+		},
+		"Blaster": {
+			"id": 210,
+			"internal": "Blaster_Middle_00",
+			"sub": "Autobomb",
+			"special": "BigBubbler",
+			"pfs": 190,
+			"class": "Blaster",
+			"unlock": {
+				"type": "level",
+				"level": 3
+			},
+			"added": "1.0.0",
+			"lang": {
+				"en": "Blaster"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/BlasterMiddle00.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Blaster_Middle_00.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Blaster_Middle_00.png"
+			}
+		},
+		"CustomBlaster": {
+			"id": 211,
+			"internal": "Blaster_Middle_01",
+			"sub": "PointSensor",
+			"special": "TripleSplashdown",
+			"pfs": 190,
+			"class": "Blaster",
+			"unlock": {
+				"type": "level",
+				"level": 8
+			},
+			"added": "6.0.0",
+			"lang": {
+				"en": "Custom Blaster"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/BlasterMiddle01.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Blaster_Middle_01.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Blaster_Middle_01.png"
+			}
+		},
+		"GleamzBlaster": {
+			"id": 212,
+			"internal": "Blaster_Middle_02",
+			"internalTableturf": null,
+			"sub": "SquidBeakon",
+			"special": "CrabTank",
+			"pfs": 180,
+			"class": "Blaster",
+			"unlock": {
+				"type": "level",
+				"level": 9
+			},
+			"added": "10.0.0",
+			"lang": {
+				"en": "Gleamz Blaster"
+			},
+			"image": {
+				"tableturf": null,
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Blaster_Middle_02.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Blaster_Middle_02.png"
+			}
+		},
+		"RangeBlaster": {
+			"id": 220,
+			"internal": "Blaster_Long_00",
+			"sub": "SuctionBomb",
+			"special": "WaveBreaker",
+			"pfs": 210,
+			"class": "Blaster",
+			"unlock": {
+				"type": "level",
+				"level": 11
+			},
+			"added": "1.0.0",
+			"lang": {
+				"en": "Range Blaster"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/BlasterLong00.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Blaster_Long_00.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Blaster_Long_00.png"
+			}
+		},
+		"CustomRangeBlaster": {
+			"id": 221,
+			"internal": "Blaster_Long_01",
+			"sub": "SplatBomb",
+			"special": "KrakenRoyale",
+			"pfs": 210,
+			"class": "Blaster",
+			"unlock": {
+				"type": "level",
+				"level": 15
+			},
+			"added": "8.0.0",
+			"lang": {
+				"en": "Custom Range Blaster"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/BlasterLong01.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Blaster_Long_01.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Blaster_Long_01.png"
+			}
+		},
+		"ClashBlaster": {
+			"id": 230,
+			"internal": "Blaster_LightShort_00",
+			"sub": "SplatBomb",
+			"special": "Trizooka",
+			"pfs": 180,
+			"class": "Blaster",
+			"unlock": {
+				"type": "level",
+				"level": 22
+			},
+			"added": "1.0.0",
+			"lang": {
+				"en": "Clash Blaster"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/BlasterLightShort00.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Blaster_LightShort_00.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Blaster_LightShort_00.png"
+			}
+		},
+		"ClashBlasterNeo": {
+			"id": 231,
+			"internal": "Blaster_LightShort_01",
+			"sub": "CurlingBomb",
+			"special": "SuperChump",
+			"pfs": 170,
+			"class": "Blaster",
+			"unlock": {
+				"type": "level",
+				"level": 26
+			},
+			"added": "3.0.0",
+			"lang": {
+				"en": "Clash Blaster Neo"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/BlasterLightShort01.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Blaster_LightShort_01.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Blaster_LightShort_01.png"
+			}
+		},
+		"RapidBlaster": {
+			"id": 240,
+			"internal": "Blaster_Light_00",
+			"sub": "InkMine",
+			"special": "TripleInkstrike",
+			"pfs": 190,
+			"class": "Blaster",
+			"unlock": {
+				"type": "level",
+				"level": 7
+			},
+			"added": "1.0.0",
+			"lang": {
+				"en": "Rapid Blaster"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/BlasterLight00.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Blaster_Light_00.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Blaster_Light_00.png"
+			}
+		},
+		"RapidBlasterDeco": {
+			"id": 241,
+			"internal": "Blaster_Light_01",
+			"sub": "Torpedo",
+			"special": "Inkjet",
+			"pfs": 210,
+			"class": "Blaster",
+			"unlock": {
+				"type": "level",
+				"level": 10
+			},
+			"added": "3.0.0",
+			"lang": {
+				"en": "Rapid Blaster Deco"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/BlasterLight01.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Blaster_Light_01.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Blaster_Light_01.png"
+			}
+		},
+		"RapidBlasterPro": {
+			"id": 250,
+			"internal": "Blaster_LightLong_00",
+			"sub": "ToxicMist",
+			"special": "InkVac",
+			"pfs": 180,
+			"class": "Blaster",
+			"unlock": {
+				"type": "level",
+				"level": 26
+			},
+			"added": "1.0.0",
+			"lang": {
+				"en": "Rapid Blaster Pro"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/BlasterLightLong00.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Blaster_LightLong_00.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Blaster_LightLong_00.png"
+			}
+		},
+		"RapidBlasterProDeco": {
+			"id": 251,
+			"internal": "Blaster_LightLong_01",
+			"sub": "AngleShooter",
+			"special": "KillerWail51",
+			"pfs": 200,
+			"class": "Blaster",
+			"unlock": {
+				"type": "level",
+				"level": 29
+			},
+			"added": "4.0.0",
+			"lang": {
+				"en": "Rapid Blaster Pro Deco"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/BlasterLightLong01.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Blaster_LightLong_01.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Blaster_LightLong_01.png"
+			}
+		},
+		"RapidBlasterProWntR": {
+			"id": 252,
+			"internal": "Blaster_LightLong_02",
+			"internalTableturf": null,
+			"sub": "SuctionBomb",
+			"special": "Tacticooler",
+			"pfs": 200,
+			"class": "Blaster",
+			"unlock": {
+				"type": "level",
+				"level": 30
+			},
+			"added": "10.0.0",
+			"lang": {
+				"en": "Rapid Blaster Pro WNT-R"
+			},
+			"image": {
+				"tableturf": null,
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Blaster_LightLong_02.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Blaster_LightLong_02.png"
+			}
+		},
+		"SBlast92": {
+			"id": 260,
+			"internal": "Blaster_Precision_00",
+			"sub": "Sprinkler",
+			"special": "Reefslider",
+			"pfs": 180,
+			"class": "Blaster",
+			"unlock": {
+				"type": "level",
+				"level": 20
+			},
+			"added": "4.0.0",
+			"lang": {
+				"en": "S-BLAST '92"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/BlasterPrecision00.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Blaster_Precision_00.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Blaster_Precision_00.png"
+			}
+		},
+		"SBlast91": {
+			"id": 261,
+			"internal": "Blaster_Precision_01",
+			"sub": "BurstBomb",
+			"special": "BooyahBomb",
+			"pfs": 210,
+			"class": "Blaster",
+			"unlock": {
+				"type": "level",
+				"level": 27
+			},
+			"added": "6.0.0",
+			"lang": {
+				"en": "S-BLAST '91"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/BlasterPrecision01.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Blaster_Precision_01.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Blaster_Precision_01.png"
+			}
+		},
+		"CarbonRoller": {
+			"id": 1000,
+			"internal": "Roller_Compact_00",
+			"sub": "Autobomb",
+			"special": "Zipcaster",
+			"pfs": 160,
+			"class": "Roller",
+			"unlock": {
+				"type": "level",
+				"level": 6
+			},
+			"added": "1.0.0",
+			"lang": {
+				"en": "Carbon Roller"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/RollerCompact00.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Roller_Compact_00.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Roller_Compact_00.png"
+			}
+		},
+		"CarbonRollerDeco": {
+			"id": 1001,
+			"internal": "Roller_Compact_01",
+			"sub": "BurstBomb",
+			"special": "Trizooka",
+			"pfs": 190,
+			"class": "Roller",
+			"unlock": {
+				"type": "level",
+				"level": 22
+			},
+			"added": "2.0.0",
+			"lang": {
+				"en": "Carbon Roller Deco"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/RollerCompact01.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Roller_Compact_01.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Roller_Compact_01.png"
+			}
+		},
+		"CarbonRollerAngL": {
+			"id": 1002,
+			"internal": "Roller_Compact_02",
+			"internalTableturf": null,
+			"sub": "FizzyBomb",
+			"special": "SuperChump",
+			"pfs": 170,
+			"class": "Roller",
+			"unlock": {
+				"type": "level",
+				"level": 23
+			},
+			"added": "10.0.0",
+			"lang": {
+				"en": "Carbon Roller ANG-L"
+			},
+			"image": {
+				"tableturf": null,
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Roller_Compact_02.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Roller_Compact_02.png"
+			}
+		},
+		"SplatRoller": {
+			"id": 1010,
+			"internal": "Roller_Normal_00",
+			"sub": "CurlingBomb",
+			"special": "BigBubbler",
+			"pfs": 180,
+			"class": "Roller",
+			"unlock": {
+				"type": "level",
+				"level": 2
+			},
+			"added": "1.0.0",
+			"lang": {
+				"en": "Splat Roller"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/RollerNormal00.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Roller_Normal_00.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Roller_Normal_00.png"
+			}
+		},
+		"KrakOnSplatRoller": {
+			"id": 1011,
+			"internal": "Roller_Normal_01",
+			"sub": "SquidBeakon",
+			"special": "KrakenRoyale",
+			"pfs": 170,
+			"class": "Roller",
+			"unlock": {
+				"type": "level",
+				"level": 7
+			},
+			"added": "3.0.0",
+			"lang": {
+				"en": "Krak-On Splat Roller"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/RollerNormal01.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Roller_Normal_01.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Roller_Normal_01.png"
+			}
+		},
+		"OrderRollerReplica": {
+			"id": 1015,
+			"internal": "Roller_Normal_O",
+			"internalTableturf": null,
+			"sub": "CurlingBomb",
+			"special": "BigBubbler",
+			"pfs": 180,
+			"class": "Roller",
+			"unlock": {
+				"type": "side-order"
+			},
+			"added": "7.0.0",
+			"lang": {
+				"en": "Order Roller Replica"
+			},
+			"image": {
+				"tableturf": null,
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Roller_Normal_O.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Roller_Normal_O.png"
+			}
+		},
+		"DynamoRoller": {
+			"id": 1020,
+			"internal": "Roller_Heavy_00",
+			"sub": "Sprinkler",
+			"special": "Tacticooler",
+			"pfs": 210,
+			"class": "Roller",
+			"unlock": {
+				"type": "level",
+				"level": 12
+			},
+			"added": "1.0.0",
+			"lang": {
+				"en": "Dynamo Roller"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/RollerHeavy00.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Roller_Heavy_00.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Roller_Heavy_00.png"
+			}
+		},
+		"GoldDynamoRoller": {
+			"id": 1021,
+			"internal": "Roller_Heavy_01",
+			"sub": "SplatBomb",
+			"special": "SuperChump",
+			"pfs": 190,
+			"class": "Roller",
+			"unlock": {
+				"type": "level",
+				"level": 17
+			},
+			"added": "5.0.0",
+			"lang": {
+				"en": "Gold Dynamo Roller"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/RollerHeavy01.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Roller_Heavy_01.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Roller_Heavy_01.png"
+			}
+		},
+		"StarzDynamoRoller": {
+			"id": 1022,
+			"internal": "Roller_Heavy_02",
+			"internalTableturf": null,
+			"sub": "PointSensor",
+			"special": "KillerWail51",
+			"pfs": 180,
+			"class": "Roller",
+			"unlock": {
+				"type": "level",
+				"level": 18
+			},
+			"added": "10.0.0",
+			"lang": {
+				"en": "Starz Dynamo Roller"
+			},
+			"image": {
+				"tableturf": null,
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Roller_Heavy_02.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Roller_Heavy_02.png"
+			}
+		},
+		"FlingzaRoller": {
+			"id": 1030,
+			"internal": "Roller_Hunter_00",
+			"sub": "InkMine",
+			"special": "TentaMissiles",
+			"pfs": 210,
+			"class": "Roller",
+			"unlock": {
+				"type": "level",
+				"level": 20
+			},
+			"added": "1.0.0",
+			"lang": {
+				"en": "Flingza Roller"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/RollerHunter00.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Roller_Hunter_00.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Roller_Hunter_00.png"
+			}
+		},
+		"FoilFlingzaRoller": {
+			"id": 1031,
+			"internal": "Roller_Hunter_01",
+			"sub": "SuctionBomb",
+			"special": "SplattercolorScreen",
+			"pfs": 200,
+			"class": "Roller",
+			"unlock": {
+				"type": "level",
+				"level": 24
+			},
+			"added": "7.0.0",
+			"lang": {
+				"en": "Foil Flingza Roller"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/RollerHunter01.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Roller_Hunter_01.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Roller_Hunter_01.png"
+			}
+		},
+		"BigSwigRoller": {
+			"id": 1040,
+			"internal": "Roller_Wide_00",
+			"sub": "SplashWall",
+			"special": "InkVac",
+			"pfs": 180,
+			"class": "Roller",
+			"unlock": {
+				"type": "level",
+				"level": 16
+			},
+			"added": "2.0.0",
+			"lang": {
+				"en": "Big Swig Roller"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/RollerWide00.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Roller_Wide_00.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Roller_Wide_00.png"
+			}
+		},
+		"BigSwigRollerExpress": {
+			"id": 1041,
+			"internal": "Roller_Wide_01",
+			"sub": "AngleShooter",
+			"special": "InkStorm",
+			"pfs": 180,
+			"class": "Roller",
+			"unlock": {
+				"type": "level",
+				"level": 18
+			},
+			"added": "4.0.0",
+			"lang": {
+				"en": "Big Swig Roller Express"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/RollerWide01.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Roller_Wide_01.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Roller_Wide_01.png"
+			}
+		},
+		"PlanetzBigSwigRoller": {
+			"id": 1042,
+			"internal": "Roller_Wide_02",
+			"internalTableturf": null,
+			"sub": "Torpedo",
+			"special": "TripleSplashdown",
+			"pfs": 180,
+			"class": "Roller",
+			"unlock": {
+				"type": "level",
+				"level": 21
+			},
+			"added": "10.0.0",
+			"lang": {
+				"en": "Planetz Big Swig Roller"
+			},
+			"image": {
+				"tableturf": null,
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Roller_Wide_02.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Roller_Wide_02.png"
+			}
+		},
+		"Inkbrush": {
+			"id": 1100,
+			"internal": "Brush_Mini_00",
+			"sub": "SplatBomb",
+			"special": "KillerWail51",
+			"pfs": 180,
+			"class": "Brush",
+			"unlock": {
+				"type": "level",
+				"level": 7
+			},
+			"added": "1.0.0",
+			"lang": {
+				"en": "Inkbrush"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/BrushMini00.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Brush_Mini_00.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Brush_Mini_00.png"
+			}
+		},
+		"InkbrushNouveau": {
+			"id": 1101,
+			"internal": "Brush_Mini_01",
+			"sub": "InkMine",
+			"special": "UltraStamp",
+			"pfs": 190,
+			"class": "Brush",
+			"unlock": {
+				"type": "level",
+				"level": 15
+			},
+			"added": "2.0.0",
+			"lang": {
+				"en": "Inkbrush Nouveau"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/BrushMini01.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Brush_Mini_01.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Brush_Mini_01.png"
+			}
+		},
+		"Octobrush": {
+			"id": 1110,
+			"internal": "Brush_Normal_00",
+			"sub": "SuctionBomb",
+			"special": "Zipcaster",
+			"pfs": 190,
+			"class": "Brush",
+			"unlock": {
+				"type": "level",
+				"level": 4
+			},
+			"added": "1.0.0",
+			"lang": {
+				"en": "Octobrush"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/BrushNormal00.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Brush_Normal_00.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Brush_Normal_00.png"
+			}
+		},
+		"OctobrushNouveau": {
+			"id": 1111,
+			"internal": "Brush_Normal_01",
+			"sub": "SquidBeakon",
+			"special": "InkStorm",
+			"pfs": 180,
+			"class": "Brush",
+			"unlock": {
+				"type": "level",
+				"level": 9
+			},
+			"added": "5.0.0",
+			"lang": {
+				"en": "Octobrush Nouveau"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/BrushNormal01.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Brush_Normal_01.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Brush_Normal_01.png"
+			}
+		},
+		"CometzOctobrush": {
+			"id": 1112,
+			"internal": "Brush_Normal_02",
+			"internalTableturf": null,
+			"sub": "Autobomb",
+			"special": "KrakenRoyale",
+			"pfs": 190,
+			"class": "Brush",
+			"unlock": {
+				"type": "level",
+				"level": 11
+			},
+			"added": "10.0.0",
+			"lang": {
+				"en": "Cometz Octobrush"
+			},
+			"image": {
+				"tableturf": null,
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Brush_Normal_02.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Brush_Normal_02.png"
+			}
+		},
+		"OrderbrushReplica": {
+			"id": 1115,
+			"internal": "Brush_Normal_O",
+			"internalTableturf": null,
+			"sub": "SuctionBomb",
+			"special": "Zipcaster",
+			"pfs": 190,
+			"class": "Brush",
+			"unlock": {
+				"type": "side-order"
+			},
+			"added": "7.0.0",
+			"lang": {
+				"en": "Orderbrush Replica"
+			},
+			"image": {
+				"tableturf": null,
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Brush_Normal_O.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Brush_Normal_O.png"
+			}
+		},
+		"Painbrush": {
+			"id": 1120,
+			"internal": "Brush_Heavy_00",
+			"sub": "CurlingBomb",
+			"special": "WaveBreaker",
+			"pfs": 190,
+			"class": "Brush",
+			"unlock": {
+				"type": "level",
+				"level": 14
+			},
+			"added": "4.0.0",
+			"lang": {
+				"en": "Painbrush"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/BrushHeavy00.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Brush_Heavy_00.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Brush_Heavy_00.png"
+			}
+		},
+		"PainbrushNouveau": {
+			"id": 1121,
+			"internal": "Brush_Heavy_01",
+			"sub": "PointSensor",
+			"special": "TentaMissiles",
+			"pfs": 190,
+			"class": "Brush",
+			"unlock": {
+				"type": "level",
+				"level": 16
+			},
+			"added": "6.0.0",
+			"lang": {
+				"en": "Painbrush Nouveau"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/BrushHeavy01.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Brush_Heavy_01.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Brush_Heavy_01.png"
+			}
+		},
+		"PainbrushBrnZ": {
+			"id": 1122,
+			"internal": "Brush_Heavy_02",
+			"internalTableturf": null,
+			"sub": "SplashWall",
+			"special": "Trizooka",
+			"pfs": 190,
+			"class": "Brush",
+			"unlock": {
+				"type": "level",
+				"level": 18
+			},
+			"added": "10.0.0",
+			"lang": {
+				"en": "Painbrush BRN-Z"
+			},
+			"image": {
+				"tableturf": null,
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Brush_Heavy_02.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Brush_Heavy_02.png"
+			}
+		},
+		"ClassicSquiffer": {
+			"id": 2000,
+			"internal": "Charger_Quick_00",
+			"sub": "PointSensor",
+			"special": "BigBubbler",
+			"pfs": 190,
+			"class": "Charger",
+			"unlock": {
+				"type": "level",
+				"level": 8
+			},
+			"added": "1.0.0",
+			"lang": {
+				"en": "Classic Squiffer"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/ChargerQuick00.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Charger_Quick_00.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Charger_Quick_00.png"
+			}
+		},
+		"NewSquiffer": {
+			"id": 2001,
+			"internal": "Charger_Quick_01",
+			"sub": "Autobomb",
+			"special": "Zipcaster",
+			"pfs": 180,
+			"class": "Charger",
+			"unlock": {
+				"type": "level",
+				"level": 11
+			},
+			"added": "7.0.0",
+			"lang": {
+				"en": "New Squiffer"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/ChargerQuick01.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Charger_Quick_01.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Charger_Quick_01.png"
+			}
+		},
+		"SplatCharger": {
+			"id": 2010,
+			"internal": "Charger_Normal_00",
+			"sub": "SplatBomb",
+			"special": "InkVac",
+			"pfs": 190,
+			"class": "Charger",
+			"unlock": {
+				"type": "level",
+				"level": 2
+			},
+			"added": "1.0.0",
+			"lang": {
+				"en": "Splat Charger"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/ChargerNormal00.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Charger_Normal_00.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Charger_Normal_00.png"
+			}
+		},
+		"ZFSplatCharger": {
+			"id": 2011,
+			"internal": "Charger_Normal_01",
+			"sub": "SplashWall",
+			"special": "TripleInkstrike",
+			"pfs": 200,
+			"class": "Charger",
+			"unlock": {
+				"type": "level",
+				"level": 9
+			},
+			"added": "3.0.0",
+			"lang": {
+				"en": "Z+F Splat Charger"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/ChargerNormal01.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Charger_Normal_01.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Charger_Normal_01.png"
+			}
+		},
+		"SplatChargerCamO": {
+			"id": 2012,
+			"internal": "Charger_Normal_02",
+			"internalTableturf": null,
+			"sub": "Sprinkler",
+			"special": "CrabTank",
+			"pfs": 200,
+			"class": "Charger",
+			"unlock": {
+				"type": "level",
+				"level": 10
+			},
+			"added": "10.0.0",
+			"lang": {
+				"en": "Splat Charger CAM-O"
+			},
+			"image": {
+				"tableturf": null,
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Charger_Normal_02.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Charger_Normal_02.png"
+			}
+		},
+		"OrderChargerReplica": {
+			"id": 2015,
+			"internal": "Charger_Normal_O",
+			"internalTableturf": null,
+			"sub": "SplatBomb",
+			"special": "InkVac",
+			"pfs": 190,
+			"class": "Charger",
+			"unlock": {
+				"type": "side-order"
+			},
+			"added": "7.0.0",
+			"lang": {
+				"en": "Order Charger Replica"
+			},
+			"image": {
+				"tableturf": null,
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Charger_Normal_O.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Charger_Normal_O.png"
+			}
+		},
+		"Splatterscope": {
+			"id": 2020,
+			"internal": "Charger_NormalScope_00",
+			"sub": "SplatBomb",
+			"special": "InkVac",
+			"pfs": 190,
+			"class": "Charger",
+			"unlock": {
+				"type": "level",
+				"level": 10
+			},
+			"added": "1.0.0",
+			"lang": {
+				"en": "Splatterscope"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/ChargerNormalScope00.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Charger_NormalScope_00.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Charger_NormalScope_00.png"
+			}
+		},
+		"ZFSplatterscope": {
+			"id": 2021,
+			"internal": "Charger_NormalScope_01",
+			"sub": "SplashWall",
+			"special": "TripleInkstrike",
+			"pfs": 200,
+			"class": "Charger",
+			"unlock": {
+				"type": "level",
+				"level": 15
+			},
+			"added": "3.0.0",
+			"lang": {
+				"en": "Z+F Splatterscope"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/ChargerNormalScope01.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Charger_NormalScope_01.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Charger_NormalScope_01.png"
+			}
+		},
+		"SplatterscopeCamO": {
+			"id": 2022,
+			"internal": "Charger_NormalScope_02",
+			"internalTableturf": null,
+			"sub": "Sprinkler",
+			"special": "CrabTank",
+			"pfs": 200,
+			"class": "Charger",
+			"unlock": {
+				"type": "level",
+				"level": 17
+			},
+			"added": "10.0.0",
+			"lang": {
+				"en": "Splatterscope CAM-O"
+			},
+			"image": {
+				"tableturf": null,
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Charger_NormalScope_02.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Charger_NormalScope_02.png"
+			}
+		},
+		"Eliter4K": {
+			"id": 2030,
+			"internal": "Charger_Long_00",
+			"sub": "InkMine",
+			"special": "WaveBreaker",
+			"pfs": 210,
+			"class": "Charger",
+			"unlock": {
+				"type": "level",
+				"level": 18
+			},
+			"added": "1.0.0",
+			"lang": {
+				"en": "E-liter 4K"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/ChargerLong00.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Charger_Long_00.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Charger_Long_00.png"
+			}
+		},
+		"CustomEliter4K": {
+			"id": 2031,
+			"internal": "Charger_Long_01",
+			"sub": "SquidBeakon",
+			"special": "KrakenRoyale",
+			"pfs": 210,
+			"class": "Charger",
+			"unlock": {
+				"type": "level",
+				"level": 20
+			},
+			"added": "7.0.0",
+			"lang": {
+				"en": "Custom E-liter 4K"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/ChargerLong01.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Charger_Long_01.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Charger_Long_01.png"
+			}
+		},
+		"Eliter4KScope": {
+			"id": 2040,
+			"internal": "Charger_LongScope_00",
+			"sub": "InkMine",
+			"special": "WaveBreaker",
+			"pfs": 210,
+			"class": "Charger",
+			"unlock": {
+				"type": "level",
+				"level": 27
+			},
+			"added": "1.0.0",
+			"lang": {
+				"en": "E-liter 4K Scope"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/ChargerLongScope00.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Charger_LongScope_00.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Charger_LongScope_00.png"
+			}
+		},
+		"CustomEliter4KScope": {
+			"id": 2041,
+			"internal": "Charger_LongScope_01",
+			"sub": "SquidBeakon",
+			"special": "KrakenRoyale",
+			"pfs": 210,
+			"class": "Charger",
+			"unlock": {
+				"type": "level",
+				"level": 28
+			},
+			"added": "7.0.0",
+			"lang": {
+				"en": "Custom E-liter 4K Scope"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/ChargerLongScope01.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Charger_LongScope_01.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Charger_LongScope_01.png"
+			}
+		},
+		"Bamboozler14MkI": {
+			"id": 2050,
+			"internal": "Charger_Light_00",
+			"sub": "Autobomb",
+			"special": "KillerWail51",
+			"pfs": 190,
+			"class": "Charger",
+			"unlock": {
+				"type": "level",
+				"level": 23
+			},
+			"added": "1.0.0",
+			"lang": {
+				"en": "Bamboozler 14 Mk I"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/ChargerLight00.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Charger_Light_00.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Charger_Light_00.png"
+			}
+		},
+		"Bamboozler14MkII": {
+			"id": 2051,
+			"internal": "Charger_Light_01",
+			"sub": "FizzyBomb",
+			"special": "SuperChump",
+			"pfs": 190,
+			"class": "Charger",
+			"unlock": {
+				"type": "level",
+				"level": 26
+			},
+			"added": "8.0.0",
+			"lang": {
+				"en": "Bamboozler 14 Mk II"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/ChargerLight01.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Charger_Light_01.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Charger_Light_01.png"
+			}
+		},
+		"GooTuber": {
+			"id": 2060,
+			"internal": "Charger_Keeper_00",
+			"sub": "Torpedo",
+			"special": "TentaMissiles",
+			"pfs": 200,
+			"class": "Charger",
+			"unlock": {
+				"type": "level",
+				"level": 25
+			},
+			"added": "1.0.0",
+			"lang": {
+				"en": "Goo Tuber"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/ChargerKeeper00.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Charger_Keeper_00.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Charger_Keeper_00.png"
+			}
+		},
+		"CustomGooTuber": {
+			"id": 2061,
+			"internal": "Charger_Keeper_01",
+			"sub": "FizzyBomb",
+			"special": "UltraStamp",
+			"pfs": 200,
+			"class": "Charger",
+			"unlock": {
+				"type": "level",
+				"level": 28
+			},
+			"added": "5.0.0",
+			"lang": {
+				"en": "Custom Goo Tuber"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/ChargerKeeper01.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Charger_Keeper_01.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Charger_Keeper_01.png"
+			}
+		},
+		"Snipewriter5H": {
+			"id": 2070,
+			"internal": "Charger_Pencil_00",
+			"sub": "Sprinkler",
+			"special": "Tacticooler",
+			"pfs": 220,
+			"class": "Charger",
+			"unlock": {
+				"type": "level",
+				"level": 14
+			},
+			"added": "2.0.0",
+			"lang": {
+				"en": "Snipewriter 5H"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/ChargerPencil00.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Charger_Pencil_00.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Charger_Pencil_00.png"
+			}
+		},
+		"Snipewriter5B": {
+			"id": 2071,
+			"internal": "Charger_Pencil_01",
+			"sub": "SplashWall",
+			"special": "InkStorm",
+			"pfs": 200,
+			"class": "Charger",
+			"unlock": {
+				"type": "level",
+				"level": 19
+			},
+			"added": "6.0.0",
+			"lang": {
+				"en": "Snipewriter 5B"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/ChargerPencil01.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Charger_Pencil_01.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Charger_Pencil_01.png"
+			}
+		},
+		"Slosher": {
+			"id": 3000,
+			"internal": "Slosher_Strong_00",
+			"sub": "SplatBomb",
+			"special": "TripleInkstrike",
+			"pfs": 220,
+			"class": "Slosher",
+			"unlock": {
+				"type": "level",
+				"level": 3
+			},
+			"added": "1.0.0",
+			"lang": {
+				"en": "Slosher"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/SlosherStrong00.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Slosher_Strong_00.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Slosher_Strong_00.png"
+			}
+		},
+		"SlosherDeco": {
+			"id": 3001,
+			"internal": "Slosher_Strong_01",
+			"sub": "AngleShooter",
+			"special": "Zipcaster",
+			"pfs": 170,
+			"class": "Slosher",
+			"unlock": {
+				"type": "level",
+				"level": 12
+			},
+			"added": "2.0.0",
+			"lang": {
+				"en": "Slosher Deco"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/SlosherStrong01.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Slosher_Strong_01.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Slosher_Strong_01.png"
+			}
+		},
+		"OrderSlosherReplica": {
+			"id": 3005,
+			"internal": "Slosher_Strong_O",
+			"internalTableturf": null,
+			"sub": "SplatBomb",
+			"special": "TripleInkstrike",
+			"pfs": 220,
+			"class": "Slosher",
+			"unlock": {
+				"type": "side-order"
+			},
+			"added": "7.0.0",
+			"lang": {
+				"en": "Order Slosher Replica"
+			},
+			"image": {
+				"tableturf": null,
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Slosher_Strong_O.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Slosher_Strong_O.png"
+			}
+		},
+		"TriSlosher": {
+			"id": 3010,
+			"internal": "Slosher_Diffusion_00",
+			"sub": "ToxicMist",
+			"special": "Inkjet",
+			"pfs": 180,
+			"class": "Slosher",
+			"unlock": {
+				"type": "level",
+				"level": 10
+			},
+			"added": "1.0.0",
+			"lang": {
+				"en": "Tri-Slosher"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/SlosherDiffusion00.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Slosher_Diffusion_00.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Slosher_Diffusion_00.png"
+			}
+		},
+		"TriSlosherNouveau": {
+			"id": 3011,
+			"internal": "Slosher_Diffusion_01",
+			"sub": "FizzyBomb",
+			"special": "Tacticooler",
+			"pfs": 200,
+			"class": "Slosher",
+			"unlock": {
+				"type": "level",
+				"level": 17
+			},
+			"added": "3.0.0",
+			"lang": {
+				"en": "Tri-Slosher Nouveau"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/SlosherDiffusion01.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Slosher_Diffusion_01.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Slosher_Diffusion_01.png"
+			}
+		},
+		"TriSlosherAshN": {
+			"id": 3012,
+			"internal": "Slosher_Diffusion_02",
+			"internalTableturf": null,
+			"sub": "SplatBomb",
+			"special": "SplattercolorScreen",
+			"pfs": 180,
+			"class": "Slosher",
+			"unlock": {
+				"type": "level",
+				"level": 19
+			},
+			"added": "10.0.0",
+			"lang": {
+				"en": "Tri-Slosher ASH-N"
+			},
+			"image": {
+				"tableturf": null,
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Slosher_Diffusion_02.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Slosher_Diffusion_02.png"
+			}
+		},
+		"SloshingMachine": {
+			"id": 3020,
+			"internal": "Slosher_Launcher_00",
+			"sub": "FizzyBomb",
+			"special": "BooyahBomb",
+			"pfs": 210,
+			"class": "Slosher",
+			"unlock": {
+				"type": "level",
+				"level": 14
+			},
+			"added": "1.0.0",
+			"lang": {
+				"en": "Sloshing Machine"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/SlosherLauncher00.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Slosher_Launcher_00.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Slosher_Launcher_00.png"
+			}
+		},
+		"SloshingMachineNeo": {
+			"id": 3021,
+			"internal": "Slosher_Launcher_01",
+			"sub": "PointSensor",
+			"special": "Trizooka",
+			"pfs": 190,
+			"class": "Slosher",
+			"unlock": {
+				"type": "level",
+				"level": 21
+			},
+			"added": "5.0.0",
+			"lang": {
+				"en": "Sloshing Machine Neo"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/SlosherLauncher01.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Slosher_Launcher_01.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Slosher_Launcher_01.png"
+			}
+		},
+		"Bloblobber": {
+			"id": 3030,
+			"internal": "Slosher_Bathtub_00",
+			"sub": "Sprinkler",
+			"special": "InkStorm",
+			"pfs": 190,
+			"class": "Slosher",
+			"unlock": {
+				"type": "level",
+				"level": 19
+			},
+			"added": "1.0.0",
+			"lang": {
+				"en": "Bloblobber"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/SlosherBathtub00.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Slosher_Bathtub_00.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Slosher_Bathtub_00.png"
+			}
+		},
+		"BloblobberDeco": {
+			"id": 3031,
+			"internal": "Slosher_Bathtub_01",
+			"sub": "AngleShooter",
+			"special": "KrakenRoyale",
+			"pfs": 190,
+			"class": "Slosher",
+			"unlock": {
+				"type": "level",
+				"level": 23
+			},
+			"added": "5.0.0",
+			"lang": {
+				"en": "Bloblobber Deco"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/SlosherBathtub01.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Slosher_Bathtub_01.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Slosher_Bathtub_01.png"
+			}
+		},
+		"Explosher": {
+			"id": 3040,
+			"internal": "Slosher_Washtub_00",
+			"sub": "PointSensor",
+			"special": "InkStorm",
+			"pfs": 200,
+			"class": "Slosher",
+			"unlock": {
+				"type": "level",
+				"level": 29
+			},
+			"added": "1.0.0",
+			"lang": {
+				"en": "Explosher"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/SlosherWashtub00.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Slosher_Washtub_00.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Slosher_Washtub_00.png"
+			}
+		},
+		"CustomExplosher": {
+			"id": 3041,
+			"internal": "Slosher_Washtub_01",
+			"sub": "SplashWall",
+			"special": "TripleSplashdown",
+			"pfs": 190,
+			"class": "Slosher",
+			"unlock": {
+				"type": "level",
+				"level": 30
+			},
+			"added": "7.0.0",
+			"lang": {
+				"en": "Custom Explosher"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/SlosherWashtub01.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Slosher_Washtub_01.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Slosher_Washtub_01.png"
+			}
+		},
+		"DreadWringer": {
+			"id": 3050,
+			"internal": "Slosher_Double_00",
+			"sub": "SuctionBomb",
+			"special": "Reefslider",
+			"pfs": 200,
+			"class": "Slosher",
+			"unlock": {
+				"type": "level",
+				"level": 15
+			},
+			"added": "5.0.0",
+			"lang": {
+				"en": "Dread Wringer"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/SlosherDouble00.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Slosher_Double_00.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Slosher_Double_00.png"
+			}
+		},
+		"DreadWringerD": {
+			"id": 3051,
+			"internal": "Slosher_Double_01",
+			"sub": "SquidBeakon",
+			"special": "WaveBreaker",
+			"pfs": 190,
+			"class": "Slosher",
+			"unlock": {
+				"type": "level",
+				"level": 18
+			},
+			"added": "7.0.0",
+			"lang": {
+				"en": "Dread Wringer D"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/SlosherDouble01.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Slosher_Double_01.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Slosher_Double_01.png"
+			}
+		},
+		"HornzDreadWringer": {
+			"id": 3052,
+			"internal": "Slosher_Double_02",
+			"internalTableturf": null,
+			"sub": "CurlingBomb",
+			"special": "CrabTank",
+			"pfs": 200,
+			"class": "Slosher",
+			"unlock": {
+				"type": "level",
+				"level": 20
+			},
+			"added": "10.0.0",
+			"lang": {
+				"en": "Hornz Dread Wringer"
+			},
+			"image": {
+				"tableturf": null,
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Slosher_Double_02.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Slosher_Double_02.png"
+			}
+		},
+		"MiniSplatling": {
+			"id": 4000,
+			"internal": "Spinner_Quick_00",
+			"sub": "BurstBomb",
+			"special": "UltraStamp",
+			"pfs": 200,
+			"class": "Splatling",
+			"unlock": {
+				"type": "level",
+				"level": 12
+			},
+			"added": "1.0.0",
+			"lang": {
+				"en": "Mini Splatling"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/SpinnerQuick00.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Spinner_Quick_00.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Spinner_Quick_00.png"
+			}
+		},
+		"ZinkMiniSplatling": {
+			"id": 4001,
+			"internal": "Spinner_Quick_01",
+			"sub": "ToxicMist",
+			"special": "BigBubbler",
+			"pfs": 200,
+			"class": "Splatling",
+			"unlock": {
+				"type": "level",
+				"level": 25
+			},
+			"added": "2.0.0",
+			"lang": {
+				"en": "Zink Mini Splatling"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/SpinnerQuick01.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Spinner_Quick_01.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Spinner_Quick_01.png"
+			}
+		},
+		"MiniSplatlingRtlR": {
+			"id": 4002,
+			"internal": "Spinner_Quick_02",
+			"internalTableturf": null,
+			"sub": "SquidBeakon",
+			"special": "Trizooka",
+			"pfs": 200,
+			"class": "Splatling",
+			"unlock": {
+				"type": "level",
+				"level": 27
+			},
+			"added": "10.0.0",
+			"lang": {
+				"en": "Mini Splatling RTL-R"
+			},
+			"image": {
+				"tableturf": null,
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Spinner_Quick_02.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Spinner_Quick_02.png"
+			}
+		},
+		"HeavySplatling": {
+			"id": 4010,
+			"internal": "Spinner_Standard_00",
+			"sub": "Sprinkler",
+			"special": "WaveBreaker",
+			"pfs": 210,
+			"class": "Splatling",
+			"unlock": {
+				"type": "level",
+				"level": 4
+			},
+			"added": "1.0.0",
+			"lang": {
+				"en": "Heavy Splatling"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/SpinnerStandard00.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Spinner_Standard_00.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Spinner_Standard_00.png"
+			}
+		},
+		"HeavySplatlingDeco": {
+			"id": 4011,
+			"internal": "Spinner_Standard_01",
+			"sub": "PointSensor",
+			"special": "KrakenRoyale",
+			"pfs": 200,
+			"class": "Splatling",
+			"unlock": {
+				"type": "level",
+				"level": 15
+			},
+			"added": "1.0.0",
+			"lang": {
+				"en": "Heavy Splatling Deco"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/SpinnerStandard01.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Spinner_Standard_01.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Spinner_Standard_01.png"
+			}
+		},
+		"OrderSplatlingReplica": {
+			"id": 4015,
+			"internal": "Spinner_Standard_O",
+			"internalTableturf": null,
+			"sub": "Sprinkler",
+			"special": "WaveBreaker",
+			"pfs": 210,
+			"class": "Splatling",
+			"unlock": {
+				"type": "side-order"
+			},
+			"added": "7.0.0",
+			"lang": {
+				"en": "Order Splatling Replica"
+			},
+			"image": {
+				"tableturf": null,
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Spinner_Standard_O.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Spinner_Standard_O.png"
+			}
+		},
+		"HydraSplatling": {
+			"id": 4020,
+			"internal": "Spinner_Hyper_00",
+			"sub": "Autobomb",
+			"special": "BooyahBomb",
+			"pfs": 190,
+			"class": "Splatling",
+			"unlock": {
+				"type": "level",
+				"level": 20
+			},
+			"added": "1.0.0",
+			"lang": {
+				"en": "Hydra Splatling"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/SpinnerHyper00.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Spinner_Hyper_00.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Spinner_Hyper_00.png"
+			}
+		},
+		"CustomHydraSplatling": {
+			"id": 4021,
+			"internal": "Spinner_Hyper_01",
+			"sub": "InkMine",
+			"special": "SplattercolorScreen",
+			"pfs": 190,
+			"class": "Splatling",
+			"unlock": {
+				"type": "level",
+				"level": 23
+			},
+			"added": "8.0.0",
+			"lang": {
+				"en": "Custom Hydra Splatling"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/SpinnerHyper01.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Spinner_Hyper_01.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Spinner_Hyper_01.png"
+			}
+		},
+		"TorrentzHydraSplatling": {
+			"id": 4022,
+			"internal": "Spinner_Hyper_02",
+			"internalTableturf": null,
+			"sub": "Sprinkler",
+			"special": "BigBubbler",
+			"pfs": 200,
+			"class": "Splatling",
+			"unlock": {
+				"type": "level",
+				"level": 26
+			},
+			"added": "10.0.0",
+			"lang": {
+				"en": "Torrentz Hydra Splatling"
+			},
+			"image": {
+				"tableturf": null,
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Spinner_Hyper_02.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Spinner_Hyper_02.png"
+			}
+		},
+		"BallpointSplatling": {
+			"id": 4030,
+			"internal": "Spinner_Downpour_00",
+			"sub": "FizzyBomb",
+			"special": "Inkjet",
+			"pfs": 210,
+			"class": "Splatling",
+			"unlock": {
+				"type": "level",
+				"level": 30
+			},
+			"added": "1.0.0",
+			"lang": {
+				"en": "Ballpoint Splatling"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/SpinnerDownpour00.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Spinner_Downpour_00.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Spinner_Downpour_00.png"
+			}
+		},
+		"BallpointSplatlingNouveau": {
+			"id": 4031,
+			"internal": "Spinner_Downpour_01",
+			"sub": "InkMine",
+			"special": "InkVac",
+			"pfs": 200,
+			"class": "Splatling",
+			"unlock": {
+				"type": "level",
+				"level": 30
+			},
+			"added": "5.0.0",
+			"lang": {
+				"en": "Ballpoint Splatling Nouveau"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/SpinnerDownpour01.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Spinner_Downpour_01.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Spinner_Downpour_01.png"
+			}
+		},
+		"Nautilus47": {
+			"id": 4040,
+			"internal": "Spinner_Serein_00",
+			"sub": "PointSensor",
+			"special": "InkStorm",
+			"pfs": 190,
+			"class": "Splatling",
+			"unlock": {
+				"type": "level",
+				"level": 28
+			},
+			"added": "1.0.0",
+			"lang": {
+				"en": "Nautilus 47"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/SpinnerSerein00.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Spinner_Serein_00.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Spinner_Serein_00.png"
+			}
+		},
+		"Nautilus79": {
+			"id": 4041,
+			"internal": "Spinner_Serein_01",
+			"sub": "SuctionBomb",
+			"special": "TripleSplashdown",
+			"pfs": 200,
+			"class": "Splatling",
+			"unlock": {
+				"type": "level",
+				"level": 29
+			},
+			"added": "7.0.0",
+			"lang": {
+				"en": "Nautilus 79"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/SpinnerSerein01.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Spinner_Serein_01.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Spinner_Serein_01.png"
+			}
+		},
+		"HeavyEditSplatling": {
+			"id": 4050,
+			"internal": "Spinner_HyperShort_00",
+			"sub": "CurlingBomb",
+			"special": "Tacticooler",
+			"pfs": 200,
+			"class": "Splatling",
+			"unlock": {
+				"type": "level",
+				"level": 13
+			},
+			"added": "5.0.0",
+			"lang": {
+				"en": "Heavy Edit Splatling"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/SpinnerHyperShort00.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Spinner_HyperShort_00.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Spinner_HyperShort_00.png"
+			}
+		},
+		"HeavyEditSplatlingNouveau": {
+			"id": 4051,
+			"internal": "Spinner_HyperShort_01",
+			"sub": "SplatBomb",
+			"special": "CrabTank",
+			"pfs": 200,
+			"class": "Splatling",
+			"unlock": {
+				"type": "level",
+				"level": 17
+			},
+			"added": "8.0.0",
+			"lang": {
+				"en": "Heavy Edit Splatling Nouveau"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/SpinnerHyperShort01.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Spinner_HyperShort_01.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Spinner_HyperShort_01.png"
+			}
+		},
+		"DappleDualies": {
+			"id": 5000,
+			"internal": "Maneuver_Short_00",
+			"sub": "SquidBeakon",
+			"special": "Tacticooler",
+			"pfs": 180,
+			"class": "Dualies",
+			"unlock": {
+				"type": "level",
+				"level": 14
+			},
+			"added": "1.0.0",
+			"lang": {
+				"en": "Dapple Dualies"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/ManeuverShort00.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Maneuver_Short_00.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Maneuver_Short_00.png"
+			}
+		},
+		"DappleDualiesNouveau": {
+			"id": 5001,
+			"internal": "Maneuver_Short_01",
+			"sub": "Torpedo",
+			"special": "Reefslider",
+			"pfs": 190,
+			"class": "Dualies",
+			"unlock": {
+				"type": "level",
+				"level": 26
+			},
+			"added": "2.0.0",
+			"lang": {
+				"en": "Dapple Dualies Nouveau"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/ManeuverShort01.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Maneuver_Short_01.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Maneuver_Short_01.png"
+			}
+		},
+		"DappleDualiesNocT": {
+			"id": 5002,
+			"internal": "Maneuver_Short_02",
+			"internalTableturf": null,
+			"sub": "SplatBomb",
+			"special": "KillerWail51",
+			"pfs": 190,
+			"class": "Dualies",
+			"unlock": {
+				"type": "level",
+				"level": 28
+			},
+			"added": "10.0.0",
+			"lang": {
+				"en": "Dapple Dualies NOC-T"
+			},
+			"image": {
+				"tableturf": null,
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Maneuver_Short_02.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Maneuver_Short_02.png"
+			}
+		},
+		"SplatDualies": {
+			"id": 5010,
+			"internal": "Maneuver_Normal_00",
+			"sub": "SuctionBomb",
+			"special": "CrabTank",
+			"pfs": 200,
+			"class": "Dualies",
+			"unlock": {
+				"type": "level",
+				"level": 3
+			},
+			"added": "1.0.0",
+			"lang": {
+				"en": "Splat Dualies"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/ManeuverNormal00.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Maneuver_Normal_00.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Maneuver_Normal_00.png"
+			}
+		},
+		"EnperrySplatDualies": {
+			"id": 5011,
+			"internal": "Maneuver_Normal_01",
+			"sub": "CurlingBomb",
+			"special": "TripleSplashdown",
+			"pfs": 190,
+			"class": "Dualies",
+			"unlock": {
+				"type": "level",
+				"level": 10
+			},
+			"added": "6.0.0",
+			"lang": {
+				"en": "Enperry Splat Dualies"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/ManeuverNormal01.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Maneuver_Normal_01.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Maneuver_Normal_01.png"
+			}
+		},
+		"TwinklezSplatDualies": {
+			"id": 5012,
+			"internal": "Maneuver_Normal_02",
+			"internalTableturf": null,
+			"sub": "FizzyBomb",
+			"special": "BigBubbler",
+			"pfs": 190,
+			"class": "Dualies",
+			"unlock": {
+				"type": "level",
+				"level": 15
+			},
+			"added": "10.0.0",
+			"lang": {
+				"en": "Twinklez Splat Dualies"
+			},
+			"image": {
+				"tableturf": null,
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Maneuver_Normal_02.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Maneuver_Normal_02.png"
+			}
+		},
+		"OrderDualieReplicas": {
+			"id": 5015,
+			"internal": "Maneuver_Normal_O",
+			"internalTableturf": "ManeuverSdodr",
+			"sub": "SuctionBomb",
+			"special": "CrabTank",
+			"pfs": 200,
+			"class": "Dualies",
+			"unlock": {
+				"type": "side-order"
+			},
+			"added": "7.0.0",
+			"lang": {
+				"en": "Order Dualie Replicas"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/ManeuverSdodr.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Maneuver_Normal_O.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Maneuver_Normal_O.png"
+			}
+		},
+		"GloogaDualies": {
+			"id": 5020,
+			"internal": "Maneuver_Gallon_00",
+			"sub": "SplashWall",
+			"special": "BooyahBomb",
+			"pfs": 180,
+			"class": "Dualies",
+			"unlock": {
+				"type": "level",
+				"level": 21
+			},
+			"added": "1.0.0",
+			"lang": {
+				"en": "Glooga Dualies"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/ManeuverGallon00.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Maneuver_Gallon_00.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Maneuver_Gallon_00.png"
+			}
+		},
+		"GloogaDualiesDeco": {
+			"id": 5021,
+			"internal": "Maneuver_Gallon_01",
+			"sub": "PointSensor",
+			"special": "Trizooka",
+			"pfs": 190,
+			"class": "Dualies",
+			"unlock": {
+				"type": "level",
+				"level": 26
+			},
+			"added": "7.0.0",
+			"lang": {
+				"en": "Glooga Dualies Deco"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/ManeuverGallon01.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Maneuver_Gallon_01.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Maneuver_Gallon_01.png"
+			}
+		},
+		"DualieSquelchers": {
+			"id": 5030,
+			"internal": "Maneuver_Dual_00",
+			"sub": "SplatBomb",
+			"special": "WaveBreaker",
+			"pfs": 200,
+			"class": "Dualies",
+			"unlock": {
+				"type": "level",
+				"level": 8
+			},
+			"added": "1.0.0",
+			"lang": {
+				"en": "Dualie Squelchers"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/ManeuverDual00.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Maneuver_Dual_00.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Maneuver_Dual_00.png"
+			}
+		},
+		"CustomDualieSquelchers": {
+			"id": 5031,
+			"internal": "Maneuver_Dual_01",
+			"sub": "SquidBeakon",
+			"special": "SuperChump",
+			"pfs": 200,
+			"class": "Dualies",
+			"unlock": {
+				"type": "level",
+				"level": 16
+			},
+			"added": "4.0.0",
+			"lang": {
+				"en": "Custom Dualie Squelchers"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/ManeuverDual01.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Maneuver_Dual_01.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Maneuver_Dual_01.png"
+			}
+		},
+		"HoofzDualieSquelchers": {
+			"id": 5032,
+			"internal": "Maneuver_Dual_02",
+			"internalTableturf": null,
+			"sub": "PointSensor",
+			"special": "SplattercolorScreen",
+			"pfs": 190,
+			"class": "Dualies",
+			"unlock": {
+				"type": "level",
+				"level": 17
+			},
+			"added": "10.0.0",
+			"lang": {
+				"en": "Hoofz Dualie Squelchers"
+			},
+			"image": {
+				"tableturf": null,
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Maneuver_Dual_02.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Maneuver_Dual_02.png"
+			}
+		},
+		"DarkTetraDualies": {
+			"id": 5040,
+			"internal": "Maneuver_Stepper_00",
+			"sub": "Autobomb",
+			"special": "Reefslider",
+			"pfs": 200,
+			"class": "Dualies",
+			"unlock": {
+				"type": "level",
+				"level": 17
+			},
+			"added": "1.0.0",
+			"lang": {
+				"en": "Dark Tetra Dualies"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/ManeuverStepper00.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Maneuver_Stepper_00.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Maneuver_Stepper_00.png"
+			}
+		},
+		"LightTetraDualies": {
+			"id": 5041,
+			"internal": "Maneuver_Stepper_01",
+			"sub": "Sprinkler",
+			"special": "Zipcaster",
+			"pfs": 190,
+			"class": "Dualies",
+			"unlock": {
+				"type": "level",
+				"level": 24
+			},
+			"added": "4.0.0",
+			"lang": {
+				"en": "Light Tetra Dualies"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/ManeuverStepper01.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Maneuver_Stepper_01.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Maneuver_Stepper_01.png"
+			}
+		},
+		"DouserDualiesFF": {
+			"id": 5050,
+			"internal": "Maneuver_Long_00",
+			"sub": "InkMine",
+			"special": "KillerWail51",
+			"pfs": 190,
+			"class": "Dualies",
+			"unlock": {
+				"type": "level",
+				"level": 22
+			},
+			"added": "7.0.0",
+			"lang": {
+				"en": "Douser Dualies FF"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/ManeuverLong00.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Maneuver_Long_00.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Maneuver_Long_00.png"
+			}
+		},
+		"CustomDouserDualiesFF": {
+			"id": 5051,
+			"internal": "Maneuver_Long_01",
+			"sub": "BurstBomb",
+			"special": "TripleInkstrike",
+			"pfs": 200,
+			"class": "Dualies",
+			"unlock": {
+				"type": "level",
+				"level": 27
+			},
+			"added": "8.0.0",
+			"lang": {
+				"en": "Custom Douser Dualies FF"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/ManeuverLong01.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Maneuver_Long_01.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Maneuver_Long_01.png"
+			}
+		},
+		"SplatBrella": {
+			"id": 6000,
+			"internal": "Shelter_Normal_00",
+			"sub": "Sprinkler",
+			"special": "TripleInkstrike",
+			"pfs": 210,
+			"class": "Brella",
+			"unlock": {
+				"type": "level",
+				"level": 5
+			},
+			"added": "1.0.0",
+			"lang": {
+				"en": "Splat Brella"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/ShelterNormal00.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Shelter_Normal_00.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Shelter_Normal_00.png"
+			}
+		},
+		"SorellaBrella": {
+			"id": 6001,
+			"internal": "Shelter_Normal_01",
+			"sub": "Autobomb",
+			"special": "Inkjet",
+			"pfs": 210,
+			"class": "Brella",
+			"unlock": {
+				"type": "level",
+				"level": 19
+			},
+			"added": "5.0.0",
+			"lang": {
+				"en": "Sorella Brella"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/ShelterNormal01.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Shelter_Normal_01.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Shelter_Normal_01.png"
+			}
+		},
+		"OrderBrellaReplica": {
+			"id": 6005,
+			"internal": "Shelter_Normal_O",
+			"internalTableturf": null,
+			"sub": "Sprinkler",
+			"special": "TripleInkstrike",
+			"pfs": 210,
+			"class": "Brella",
+			"unlock": {
+				"type": "side-order"
+			},
+			"added": "7.0.0",
+			"lang": {
+				"en": "Order Brella Replica"
+			},
+			"image": {
+				"tableturf": null,
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Shelter_Normal_O.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Shelter_Normal_O.png"
+			}
+		},
+		"TentaBrella": {
+			"id": 6010,
+			"internal": "Shelter_Wide_00",
+			"sub": "SquidBeakon",
+			"special": "InkVac",
+			"pfs": 190,
+			"class": "Brella",
+			"unlock": {
+				"type": "level",
+				"level": 16
+			},
+			"added": "1.0.0",
+			"lang": {
+				"en": "Tenta Brella"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/ShelterWide00.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Shelter_Wide_00.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Shelter_Wide_00.png"
+			}
+		},
+		"TentaSorellaBrella": {
+			"id": 6011,
+			"internal": "Shelter_Wide_01",
+			"sub": "InkMine",
+			"special": "Trizooka",
+			"pfs": 200,
+			"class": "Brella",
+			"unlock": {
+				"type": "level",
+				"level": 22
+			},
+			"added": "4.0.0",
+			"lang": {
+				"en": "Tenta Sorella Brella"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/ShelterWide01.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Shelter_Wide_01.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Shelter_Wide_01.png"
+			}
+		},
+		"TentaBrellaCreM": {
+			"id": 6012,
+			"internal": "Shelter_Wide_02",
+			"internalTableturf": null,
+			"sub": "ToxicMist",
+			"special": "SuperChump",
+			"pfs": 180,
+			"class": "Brella",
+			"unlock": {
+				"type": "level",
+				"level": 25
+			},
+			"added": "10.0.0",
+			"lang": {
+				"en": "Tenta Brella CRE-M"
+			},
+			"image": {
+				"tableturf": null,
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Shelter_Wide_02.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Shelter_Wide_02.png"
+			}
+		},
+		"UndercoverBrella": {
+			"id": 6020,
+			"internal": "Shelter_Compact_00",
+			"sub": "InkMine",
+			"special": "Reefslider",
+			"pfs": 180,
+			"class": "Brella",
+			"unlock": {
+				"type": "level",
+				"level": 18
+			},
+			"added": "1.0.0",
+			"lang": {
+				"en": "Undercover Brella"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/ShelterCompact00.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Shelter_Compact_00.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Shelter_Compact_00.png"
+			}
+		},
+		"UndercoverSorellaBrella": {
+			"id": 6021,
+			"internal": "Shelter_Compact_01",
+			"sub": "Torpedo",
+			"special": "SplattercolorScreen",
+			"pfs": 180,
+			"class": "Brella",
+			"unlock": {
+				"type": "level",
+				"level": 23
+			},
+			"added": "6.0.0",
+			"lang": {
+				"en": "Undercover Sorella Brella"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/ShelterCompact01.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Shelter_Compact_01.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Shelter_Compact_01.png"
+			}
+		},
+		"PatternzUndercoverBrella": {
+			"id": 6022,
+			"internal": "Shelter_Compact_02",
+			"internalTableturf": null,
+			"sub": "CurlingBomb",
+			"special": "KillerWail51",
+			"pfs": 180,
+			"class": "Brella",
+			"unlock": {
+				"type": "level",
+				"level": 27
+			},
+			"added": "10.0.0",
+			"lang": {
+				"en": "Patternz Undercover Brella"
+			},
+			"image": {
+				"tableturf": null,
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Shelter_Compact_02.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Shelter_Compact_02.png"
+			}
+		},
+		"RecycledBrella24MkI": {
+			"id": 6030,
+			"internal": "Shelter_Focus_00",
+			"sub": "AngleShooter",
+			"special": "BigBubbler",
+			"pfs": 190,
+			"class": "Brella",
+			"unlock": {
+				"type": "level",
+				"level": 13
+			},
+			"added": "7.0.0",
+			"lang": {
+				"en": "Recycled Brella 24 Mk I"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/ShelterFocus00.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Shelter_Focus_00.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Shelter_Focus_00.png"
+			}
+		},
+		"RecycledBrella24MkII": {
+			"id": 6031,
+			"internal": "Shelter_Focus_01",
+			"sub": "ToxicMist",
+			"special": "TripleSplashdown",
+			"pfs": 190,
+			"class": "Brella",
+			"unlock": {
+				"type": "level",
+				"level": 20
+			},
+			"added": "8.0.0",
+			"lang": {
+				"en": "Recycled Brella 24 Mk II"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/ShelterFocus01.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Shelter_Focus_01.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Shelter_Focus_01.png"
+			}
+		},
+		"TriStringer": {
+			"id": 7010,
+			"internal": "Stringer_Normal_00",
+			"sub": "ToxicMist",
+			"special": "KillerWail51",
+			"pfs": 190,
+			"class": "Stringer",
+			"unlock": {
+				"type": "level",
+				"level": 4
+			},
+			"added": "1.0.0",
+			"lang": {
+				"en": "Tri-Stringer"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/StringerNormal00.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Stringer_Normal_00.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Stringer_Normal_00.png"
+			}
+		},
+		"InklineTriStringer": {
+			"id": 7011,
+			"internal": "Stringer_Normal_01",
+			"sub": "Sprinkler",
+			"special": "SuperChump",
+			"pfs": 200,
+			"class": "Stringer",
+			"unlock": {
+				"type": "level",
+				"level": 11
+			},
+			"added": "5.0.0",
+			"lang": {
+				"en": "Inkline Tri-Stringer"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/StringerNormal01.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Stringer_Normal_01.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Stringer_Normal_01.png"
+			}
+		},
+		"BulbzTriStringer": {
+			"id": 7012,
+			"internal": "Stringer_Normal_02",
+			"internalTableturf": null,
+			"sub": "AngleShooter",
+			"special": "Inkjet",
+			"pfs": 200,
+			"class": "Stringer",
+			"unlock": {
+				"type": "level",
+				"level": 13
+			},
+			"added": "10.0.0",
+			"lang": {
+				"en": "Bulbz Tri-Stringer"
+			},
+			"image": {
+				"tableturf": null,
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Stringer_Normal_02.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Stringer_Normal_02.png"
+			}
+		},
+		"OrderStringerReplica": {
+			"id": 7015,
+			"internal": "Stringer_Normal_O",
+			"internalTableturf": null,
+			"sub": "ToxicMist",
+			"special": "KillerWail51",
+			"pfs": 190,
+			"class": "Stringer",
+			"unlock": {
+				"type": "side-order"
+			},
+			"added": "7.0.0",
+			"lang": {
+				"en": "Order Stringer Replica"
+			},
+			"image": {
+				"tableturf": null,
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Stringer_Normal_O.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Stringer_Normal_O.png"
+			}
+		},
+		"Reeflux450": {
+			"id": 7020,
+			"internal": "Stringer_Short_00",
+			"sub": "CurlingBomb",
+			"special": "TentaMissiles",
+			"pfs": 210,
+			"class": "Stringer",
+			"unlock": {
+				"type": "level",
+				"level": 10
+			},
+			"added": "1.0.0",
+			"lang": {
+				"en": "REEF-LUX 450"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/StringerShort00.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Stringer_Short_00.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Stringer_Short_00.png"
+			}
+		},
+		"Reeflux450Deco": {
+			"id": 7021,
+			"internal": "Stringer_Short_01",
+			"sub": "SplashWall",
+			"special": "Reefslider",
+			"pfs": 200,
+			"class": "Stringer",
+			"unlock": {
+				"type": "level",
+				"level": 12
+			},
+			"added": "6.0.0",
+			"lang": {
+				"en": "REEF-LUX 450 Deco"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/StringerShort01.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Stringer_Short_01.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Stringer_Short_01.png"
+			}
+		},
+		"Reeflux450MilK": {
+			"id": 7022,
+			"internal": "Stringer_Short_02",
+			"internalTableturf": null,
+			"sub": "Torpedo",
+			"special": "BooyahBomb",
+			"pfs": 210,
+			"class": "Stringer",
+			"unlock": {
+				"type": "level",
+				"level": 16
+			},
+			"added": "10.0.0",
+			"lang": {
+				"en": "REEF-LUX 450 MIL-K"
+			},
+			"image": {
+				"tableturf": null,
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Stringer_Short_02.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Stringer_Short_02.png"
+			}
+		},
+		"WellstringV": {
+			"id": 7030,
+			"internal": "Stringer_Explosion_00",
+			"sub": "Autobomb",
+			"special": "UltraStamp",
+			"pfs": 200,
+			"class": "Stringer",
+			"unlock": {
+				"type": "level",
+				"level": 19
+			},
+			"added": "8.0.0",
+			"lang": {
+				"en": "Wellstring V"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/StringerExplosion00.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Stringer_Explosion_00.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Stringer_Explosion_00.png"
+			}
+		},
+		"CustomWellstringV": {
+			"id": 7031,
+			"internal": "Stringer_Explosion_01",
+			"sub": "PointSensor",
+			"special": "WaveBreaker",
+			"pfs": 190,
+			"class": "Stringer",
+			"unlock": {
+				"type": "level",
+				"level": 24
+			},
+			"added": "8.0.0",
+			"lang": {
+				"en": "Custom Wellstring V"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/StringerExplosion01.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Stringer_Explosion_01.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Stringer_Explosion_01.png"
+			}
+		},
+		"SplatanaStamper": {
+			"id": 8000,
+			"internal": "Saber_Normal_00",
+			"sub": "BurstBomb",
+			"special": "Zipcaster",
+			"pfs": 210,
+			"class": "Splatana",
+			"unlock": {
+				"type": "level",
+				"level": 15
+			},
+			"added": "1.0.0",
+			"lang": {
+				"en": "Splatana Stamper"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/SaberNormal00.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Saber_Normal_00.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Saber_Normal_00.png"
+			}
+		},
+		"SplatanaStamperNouveau": {
+			"id": 8001,
+			"internal": "Saber_Normal_01",
+			"sub": "ToxicMist",
+			"special": "CrabTank",
+			"pfs": 210,
+			"class": "Splatana",
+			"unlock": {
+				"type": "level",
+				"level": 20
+			},
+			"added": "6.0.0",
+			"lang": {
+				"en": "Splatana Stamper Nouveau"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/SaberNormal01.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Saber_Normal_01.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Saber_Normal_01.png"
+			}
+		},
+		"StickerzSplatanaStamper": {
+			"id": 8002,
+			"internal": "Saber_Normal_02",
+			"internalTableturf": null,
+			"sub": "Autobomb",
+			"special": "BooyahBomb",
+			"pfs": 190,
+			"class": "Splatana",
+			"unlock": {
+				"type": "level",
+				"level": 22
+			},
+			"added": "10.0.0",
+			"lang": {
+				"en": "Stickerz Splatana Stamper"
+			},
+			"image": {
+				"tableturf": null,
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Saber_Normal_02.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Saber_Normal_02.png"
+			}
+		},
+		"OrderSplatanaReplica": {
+			"id": 8005,
+			"internal": "Saber_Normal_O",
+			"internalTableturf": null,
+			"sub": "BurstBomb",
+			"special": "Zipcaster",
+			"pfs": 210,
+			"class": "Splatling",
+			"unlock": {
+				"type": "side-order"
+			},
+			"added": "7.0.0",
+			"lang": {
+				"en": "Order Splatana Replica"
+			},
+			"image": {
+				"tableturf": null,
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Saber_Normal_O.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Saber_Normal_O.png"
+			}
+		},
+		"SplatanaWiper": {
+			"id": 8010,
+			"internal": "Saber_Lite_00",
+			"internalTableturf": "SaberLight00",
+			"sub": "Torpedo",
+			"special": "UltraStamp",
+			"pfs": 190,
+			"class": "Splatana",
+			"unlock": {
+				"type": "level",
+				"level": 5
+			},
+			"added": "1.0.0",
+			"lang": {
+				"en": "Splatana Wiper"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/SaberLight00.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Saber_Lite_00.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Saber_Lite_00.png"
+			}
+		},
+		"SplatanaWiperDeco": {
+			"id": 8011,
+			"internal": "Saber_Lite_01",
+			"internalTableturf": "SaberLight01",
+			"sub": "SquidBeakon",
+			"special": "TentaMissiles",
+			"pfs": 190,
+			"class": "Splatana",
+			"unlock": {
+				"type": "level",
+				"level": 10
+			},
+			"added": "4.0.0",
+			"lang": {
+				"en": "Splatana Wiper Deco"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/SaberLight01.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Saber_Lite_01.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Saber_Lite_01.png"
+			}
+		},
+		"SplatanaWiperRusT": {
+			"id": 8012,
+			"internal": "Saber_Lite_02",
+			"internalTableturf": null,
+			"sub": "CurlingBomb",
+			"special": "Trizooka",
+			"pfs": 190,
+			"class": "Splatana",
+			"unlock": {
+				"type": "level",
+				"level": 14
+			},
+			"added": "10.0.0",
+			"lang": {
+				"en": "Splatana Wiper RUS-T"
+			},
+			"image": {
+				"tableturf": null,
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Saber_Lite_02.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Saber_Lite_02.png"
+			}
+		},
+		"MintDecavitator": {
+			"id": 8020,
+			"internal": "Saber_Heavy_00",
+			"sub": "SuctionBomb",
+			"special": "BigBubbler",
+			"pfs": 210,
+			"class": "Splatana",
+			"unlock": {
+				"type": "level",
+				"level": 21
+			},
+			"added": "8.0.0",
+			"lang": {
+				"en": "Mint Decavitator"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/SaberHeavy00.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Saber_Heavy_00.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Saber_Heavy_00.png"
+			}
+		},
+		"CharcoalDecavitator": {
+			"id": 8021,
+			"internal": "Saber_Heavy_01",
+			"sub": "SplashWall",
+			"special": "Inkjet",
+			"pfs": 200,
+			"class": "Splatling",
+			"unlock": {
+				"type": "level",
+				"level": 25
+			},
+			"added": "8.0.0",
+			"lang": {
+				"en": "Charcoal Decavitator"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/SaberHeavy01.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon_flat/Path_Wst_Saber_Heavy_01.png",
+				"3d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/weapon/Wst_Saber_Heavy_01.png"
+			}
+		}
+	},
+	"subs": {
+		"SplatBomb": {
+			"id": 0,
+			"internal": "Bomb_Splash",
+			"lang": {
+				"en": "Splat Bomb"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/BombSplash.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/subspe/Wsb_Bomb_Splash00.png"
+			}
+		},
+		"SuctionBomb": {
+			"id": 1,
+			"internal": "Bomb_Suction",
+			"lang": {
+				"en": "Suction Bomb"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/BombSuction.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/subspe/Wsb_Bomb_Suction00.png"
+			}
+		},
+		"BurstBomb": {
+			"id": 2,
+			"internal": "Bomb_Quick",
+			"lang": {
+				"en": "Burst Bomb"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/BombQuick.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/subspe/Wsb_Bomb_Quick00.png"
+			}
+		},
+		"Sprinkler": {
+			"id": 3,
+			"internal": "Sprinkler",
+			"lang": {
+				"en": "Sprinkler"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/Sprinkler.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/subspe/Wsb_Sprinkler00.png"
+			}
+		},
+		"SplashWall": {
+			"id": 4,
+			"internal": "Shield",
+			"lang": {
+				"en": "Splash Wall"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/Shield.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/subspe/Wsb_Shield00.png"
+			}
+		},
+		"FizzyBomb": {
+			"id": 5,
+			"internal": "Bomb_Fizzy",
+			"lang": {
+				"en": "Fizzy Bomb"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/BombFizzy.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/subspe/Wsb_Bomb_Fizzy00.png"
+			}
+		},
+		"CurlingBomb": {
+			"id": 6,
+			"internal": "Bomb_Curling",
+			"lang": {
+				"en": "Curling Bomb"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/BombCurling.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/subspe/Wsb_Bomb_Curling00.png"
+			}
+		},
+		"Autobomb": {
+			"id": 7,
+			"internal": "Bomb_Robot",
+			"lang": {
+				"en": "Autobomb"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/BombRobot.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/subspe/Wsb_Bomb_Robot00.png"
+			}
+		},
+		"SquidBeakon": {
+			"id": 8,
+			"internal": "Beacon",
+			"lang": {
+				"en": "Squid Beakon"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/Beacon.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/subspe/Wsb_Beacon00.png"
+			}
+		},
+		"PointSensor": {
+			"id": 9,
+			"internal": "PointSensor",
+			"lang": {
+				"en": "Point Sensor"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/PointSensor.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/subspe/Wsb_PointSensor00.png"
+			}
+		},
+		"InkMine": {
+			"id": 10,
+			"internal": "Trap",
+			"lang": {
+				"en": "Ink Mine"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/Trap.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/subspe/Wsb_Trap00.png"
+			}
+		},
+		"ToxicMist": {
+			"id": 11,
+			"internal": "PoisonMist",
+			"lang": {
+				"en": "Toxic Mist"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/PoisonMist.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/subspe/Wsb_PoisonMist00.png"
+			}
+		},
+		"AngleShooter": {
+			"id": 12,
+			"internal": "LineMarker",
+			"lang": {
+				"en": "Angle Shooter"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/LineMarker.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/subspe/Wsb_LineMarker00.png"
+			}
+		},
+		"Torpedo": {
+			"id": 13,
+			"internal": "Bomb_Torpedo",
+			"internalTableturf": "BombTako",
+			"lang": {
+				"en": "Torpedo"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/BombTako.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/subspe/Wsb_Bomb_Torpedo00.png"
+			}
+		}
+	},
+	"specials": {
+		"Trizooka": {
+			"id": 1,
+			"internal": "SpUltraShot",
+			"added": "1.0.0",
+			"lang": {
+				"en": "Trizooka"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/SpUltraShot.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/subspe/Wsp_SpUltraShot00.png"
+			}
+		},
+		"BigBubbler": {
+			"id": 2,
+			"internal": "SpGreatBarrier",
+			"added": "1.0.0",
+			"lang": {
+				"en": "Big Bubbler"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/SpGreatBarrier.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/subspe/Wsp_SpGreatBarrier00.png"
+			}
+		},
+		"Zipcaster": {
+			"id": 3,
+			"internal": "SpSuperHook",
+			"added": "1.0.0",
+			"lang": {
+				"en": "Zipcaster"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/SpSuperHook.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/subspe/Wsp_SpSuperHook00.png"
+			}
+		},
+		"TentaMissiles": {
+			"id": 4,
+			"internal": "SpMultiMissile",
+			"added": "1.0.0",
+			"lang": {
+				"en": "Tenta Missiles"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/SpMultiMissile.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/subspe/Wsp_SpMultiMissile00.png"
+			}
+		},
+		"InkStorm": {
+			"id": 5,
+			"internal": "SpInkStorm",
+			"added": "1.0.0",
+			"lang": {
+				"en": "Ink Storm"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/SpInkStorm.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/subspe/Wsp_SpInkStorm00.png"
+			}
+		},
+		"BooyahBomb": {
+			"id": 6,
+			"internal": "SpNiceBall",
+			"added": "1.0.0",
+			"lang": {
+				"en": "Booyah Bomb"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/SpNiceBall.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/subspe/Wsp_SpNiceBall00.png"
+			}
+		},
+		"WaveBreaker": {
+			"id": 7,
+			"internal": "SpShockSonar",
+			"internalTableturf": "ShockSonar",
+			"added": "1.0.0",
+			"lang": {
+				"en": "Wave Breaker"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/ShockSonar.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/subspe/Wsp_SpShockSonar00.png"
+			}
+		},
+		"InkVac": {
+			"id": 8,
+			"internal": "SpBlower",
+			"internalTableturf": "Kyuinki",
+			"added": "1.0.0",
+			"lang": {
+				"en": "Ink Vac"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/Kyuinki.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/subspe/Wsp_SpBlower00.png"
+			}
+		},
+		"KillerWail51": {
+			"id": 9,
+			"internal": "SpMicroLaser",
+			"internalTableturf": "SpMegaphoneLaser51",
+			"added": "1.0.0",
+			"lang": {
+				"en": "Killer Wail 5.1"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/SpMegaphoneLaser51.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/subspe/Wsp_SpMicroLaser00.png"
+			}
+		},
+		"Inkjet": {
+			"id": 10,
+			"internal": "SpJetpack",
+			"internalTableturf": "Jetpack",
+			"added": "1.0.0",
+			"lang": {
+				"en": "Inkjet"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/Jetpack.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/subspe/Wsp_SpJetpack00.png"
+			}
+		},
+		"UltraStamp": {
+			"id": 11,
+			"internal": "SpUltraStamp",
+			"added": "1.0.0",
+			"lang": {
+				"en": "Ultra Stamp"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/SpUltraStamp.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/subspe/Wsp_SpUltraStamp00.png"
+			}
+		},
+		"CrabTank": {
+			"id": 12,
+			"internal": "SpChariot",
+			"internalTableturf": "Kanitank",
+			"added": "1.0.0",
+			"lang": {
+				"en": "Crab Tank"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/Kanitank.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/subspe/Wsp_SpChariot00.png"
+			}
+		},
+		"Reefslider": {
+			"id": 13,
+			"internal": "SpSkewer",
+			"internalTableturf": "Chidori",
+			"added": "1.0.0",
+			"lang": {
+				"en": "Reefslider"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/Chidori.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/subspe/Wsp_SpSkewer00.png"
+			}
+		},
+		"TripleInkstrike": {
+			"id": 14,
+			"internal": "SpTripleTornado",
+			"internalTableturf": "TripleTornado",
+			"added": "1.0.0",
+			"lang": {
+				"en": "Triple Inkstrike"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/TripleTornado.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/subspe/Wsp_SpTripleTornado00.png"
+			}
+		},
+		"Tacticooler": {
+			"id": 15,
+			"internal": "SpEnergyStand",
+			"internalTableturf": "EnergyStand",
+			"added": "1.0.0",
+			"lang": {
+				"en": "Tacticooler"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/EnergyStand.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/subspe/Wsp_SpEnergyStand00.png"
+			}
+		},
+		"SuperChump": {
+			"id": 16,
+			"internal": "SpFirework",
+			"added": "3.0.0",
+			"lang": {
+				"en": "Super Chump"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/SpFirework.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/subspe/Wsp_SpFirework00.png"
+			}
+		},
+		"KrakenRoyale": {
+			"id": 17,
+			"internal": "SpCastle",
+			"added": "3.0.0",
+			"lang": {
+				"en": "Kraken Royale"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/SpCastle.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/subspe/Wsp_SpCastle00.png"
+			}
+		},
+		"TripleSplashdown": {
+			"id": 18,
+			"internal": "SpPogo",
+			"added": "6.0.0",
+			"lang": {
+				"en": "Triple Splashdown"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/SpPogo.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/subspe/Wsp_SpPogo00.png"
+			}
+		},
+		"SplattercolorScreen": {
+			"id": 19,
+			"internal": "SpChimney",
+			"added": "6.0.0",
+			"lang": {
+				"en": "Splattercolor Screen"
+			},
+			"image": {
+				"tableturf": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/minigame/card/SpChimney.png",
+				"2d": "https://raw.githubusercontent.com/Leanny/splat3/refs/heads/main/images/subspe/Wsp_SpChimney00.png"
+			}
+		}
+	}
+}

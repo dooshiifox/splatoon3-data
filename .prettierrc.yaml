@@ -1,0 +1,54 @@
+# https://prettier.io/docs/options
+
+# See https://prettier.io/docs/options#print-width
+# 80 is the common default for editors.
+printWidth: 80
+
+# I personally prefer tabs. Theyre better for accessibility, especially the
+# visually-impaired.
+# https://alexandersandberg.com/articles/default-to-tabs-instead-of-spaces-for-an-accessible-first-environment/
+useTabs: true
+
+# More consistent and reliable code. Sometimes ASI sucks.
+# https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#automatic_semicolon_insertion
+semi: true
+
+# Consistency with other programming lanuages that use '' for a single character
+# and "" for a string, such as C(++), C#, Rust, and Go.
+singleQuote: false
+# Consistent with HTML
+jsxSingleQuote: false
+
+# Prevent extra line changes in Git when editing an array or object.
+#
+# For example, a Git diff looking like this
+#   [
+#     a,
+# +   b,
+#   ]
+#
+# is clearer than one looking like this
+#   [
+# -   a
+# +   a,
+# +   b
+#   ]
+#
+# We could also enable it for functions arguments, function calls, and other
+# locations, but at that point it starts looking ugly.
+trailingComma: es5
+
+# { foo: bar } is more readable than {foo: bar}
+bracketSpacing: true
+
+# Look at the example here https://prettier.io/docs/options#bracket-line
+# Without syntax highlighting to guide you, its hard to tell where the
+# element ends and the children begin.
+bracketSameLine: false
+
+# See the explanation for `trailingComma`, its basically the same here.
+# Also makes it clearer its a function call without reading up to the =>
+arrowParens: always
+
+# Preferred with Git, is becoming the adopted default.
+endOfLine: "lf"
